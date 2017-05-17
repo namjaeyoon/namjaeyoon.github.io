@@ -20,7 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: namjaeyoon
 
-encoding: "euc-kr"
+encoding: EUC-KR
 
 # Build settings
 markdown: kramdown
