@@ -1,0 +1,453 @@
+@charset "euc-kr";
+
+#special_weathernews{height:22px; padding:4px 0 0 6px; border:3px solid #a3c2e0; margin-bottom:15px;}
+#special_weathernews dt{margin-right:10px; overflow:hidden; float:left; display:inline;}
+#special_weathernews dt img{float:left; height:13px; padding:2px;}
+#special_weathernews dd.date{border:0px solid red;  width:105px; color:#137ecc; font-weight:bold; margin-right:4px;}
+#special_weathernews dd{float:left; color:#717171;}
+
+.mini_container{overflow:hidden; padding:10px 0 50px 0; width:980px;border:1px solid red;}
+
+/* ÁöÁø¼¾ÅÍ */
+.mini_left{float:left; margin-right:15px; width:300px;}
+.mini_left .kma_time{margin-bottom:3px; height:15px; font-size:0.95em; color:#868686; text-align:right; line-height:1em;}
+.mini_left .kma_time img{margin-right:7px; vertical-align:middle;}
+
+.mini_left h3.h3_quake{padding:6px 9px 0 11px; background:url(../../images/mini/bg_ti01.gif) no-repeat; height:24px;}
+.mini_left h3.h3_quake .maL208{margin-left:208px;}
+
+.mini_left .table_quake{width:300px; border:2px solid #76c023; table-layout:fixed;}
+.mini_left .table_quake th{padding:4px 0 2px 0; border-right:1px solid #c7c7c7; border-bottom:1px solid #c7c7c7; background:url(../../images/mini/bg_th01.gif) repeat-x left top; font-size:0.95em;}
+.mini_left .table_quake td{padding:4px 0 2px 8px; border-bottom:1px solid #c7c7c7; font-size:0.95em;}
+.mini_left .table_quake td.map{padding:6px 0 7px 0; text-align:center;}
+.mini_left .table_quake td.btn{padding:4px 0 4px 8px; line-height:1em; border-bottom:2px solid #76c023; background:#76c022; color:#fff;}
+.mini_left .table_quake td.btn img{margin-right:7px; vertical-align:middle;}
+.mini_left .table_quake .line2{border-bottom:2px solid #c7c7c7;}
+
+.mini_right{float:left; width:665px;}
+
+.mini_right h3{margin-bottom:5px;font-size:0.95em; width:100px;}
+.mini_right .table_blue{width:326px; border:2px solid #4487ab; table-layout:fixed; line-height:1em;}
+.mini_right .table_blue th{padding:9px 0 7px 0; border-bottom:2px solid #3779b9; color:#fff; font-size:0.95em;}
+.mini_right .table_blue th.th_left{background:url(../../images/mini/bg_thL.gif) no-repeat;}
+.mini_right .table_blue th.th_cen{background:url(../../images/mini/bg_thC.gif) no-repeat; border-left:1px solid #a2c5e6; border-right:1px solid #a2c5e6;}
+.mini_right .table_blue th.th_right{background:url(../../images/mini/bg_thR.gif) no-repeat;}
+.mini_right .table_blue td{padding:8px 0 4px 0; border-bottom:1px solid #dadada; color:#797676; font-size:0.95em; text-align:center; line-height:1.3em;}
+.mini_right .table_blue td.td_cen{border-left:1px solid #dadada; border-right:1px solid #dadada;}
+
+.mini_right .korea_quake{overflow:hidden; width:100%;}
+.mini_right .korea_quake .inkorea_quake{position:relative; float:left; width:330px;}
+.mini_right .korea_quake .outkorea_quake{position:relative; float:right; width:330px;}
+.mini_right .more{position:absolute; right:4px; top:2px;}
+
+.mini_right .middle_quake{overflow:hidden; width:100%; height:124px; }
+.mini_right .middle_quake h3{margin-top:14px;}
+.mini_right .middle_quake .ul_quake{float:left; padding:19px 0 18px 0; margin-right:10px; display:inline; width:329px; background:url(../../images/mini/bg_quakelist.gif) no-repeat;}
+.mini_right .middle_quake .ul_quake li{float:left; }
+.mini_right .middle_quake .ul_quake li dl.list01{margin-left:12px;}
+.mini_right .middle_quake .ul_quake li dl.list02{margin-left:37px;}
+.mini_right .middle_quake .ul_quake li dl.list02 dd{margin-left:13px;}
+.mini_right .middle_quake .ul_quake li dl.list03{margin-left:42px;}
+.mini_right .middle_quake .ul_quake li dl.list03 dd{margin-left:13px;}
+.mini_right .middle_quake .ul_quake li dl dt img{vertical-align:top;}
+.mini_right .middle_quake .ul_quake li dl dd{margin:13px 0 0 19px;}
+.mini_right .middle_quake .ul_quake li dl dd img{vertical-align:top;}
+
+.mini_right .middle_quake .info_quicklink{float:left; display:inline;}
+.mini_right .middle_quake .info_quicklink2{float:left; margin-left:4px; display:inline;}
+.mini_right .middle_quake .info_quicklink ul{width:165px; height:83px; background:#e1e1e1;}
+.mini_right .middle_quake .info_quicklink ul li{float:left; padding:1px 0 0 1px;}
+.mini_right .middle_quake .info_quicklink ul li img{vertical-align:top;}
+
+.mini_right .middle_quake .info_quake{float:left; padding-top:32px; margin-left:4px; display:inline;}
+.mini_right .middle_quake .info_quake2{float:left; padding-top:32px; display:inline;}
+.mini_right .middle_quake .info_quake img{vertical-align:top;	}
+
+.mini_right .site_quake{width:100%;}
+.mini_right .site_quake h3{margin-top:10px;}
+.mini_right .site_quake ul{padding:8px 0 0 7px; width:658px; height:37px; overflow:hidden; background:url(../../images/mini/bg_site.gif) no-repeat;}
+.mini_right .site_quake ul li{float:left; position:relative; width:144px; margin-right:24px;}
+.mini_right .site_quake ul li.none{margin-right:0;}
+.mini_right .site_quake ul li dl dd{position:absolute; right:0px; bottom:0px;}
+
+.mini_right .site_quake2{width:665px;overflow:hidden;position:absolute; }
+.mini_right .site_quake2 h3{margin-top:10px;}
+.mini_right .site_quake2 ul{padding:8px 0 0 6px; width:100%; height:37px; background:url(../../images/mini/bg_site_1.gif) no-repeat;}
+.mini_right .site_quake2 ul li{float:left; position:relative; width:95px; margin-right:8px;}
+.mini_right .site_quake2 ul li.none{margin-right:0;}
+.mini_right .site_quake2 ul li dl dt.tm{margin-left:20px; bottom:0px;}
+.mini_right .site_quake2 ul li dl dd{position:absolute; right:-3px; bottom:0px;}
+.mini_right .site_quake2 ul li dl dd.line{position:absolute; right:3px; bottom:0px;}
+.mini_right .site_quake2 ul li dl dd.line2{position:absolute; right:-7px; bottom:0px;}
+
+
+.mini_right .site_quake3{float:left; position:absolute; margin-left:440px;}
+.mini_right .site_quake3 h3{margin-top:10px;}
+.mini_right .site_quake3 ul{padding:4px 0  0 6px;  height:37px;}
+.mini_right .site_quake3 ul li{float:left; width:100px; margin-right:8px;}
+.mini_right .site_quake3 ul li.none{margin-right:0;}
+
+
+
+
+/* ÅÂÇ³¼¾ÅÍ */
+
+#container_weather_typoon{ clear:both;  width:980px; margin:0 auto 30px auto;}
+#container_weather_typoon:after{ content:""; display:block; float:none; clear:both;}
+
+#mini_typoon_left{float:left;width:431px;padding-right:14px;font-size:0.95em;}
+#mini_typoon_left h3{font-size:0.95em;}
+
+#tab_mini_typoon{clear:left;overflow:hidden;}
+#tab_mini_typoon li{float:left;}
+#tab_mini_typoon li img{vertical-align:top;}
+
+.typoon_greenbox{border:2px solid #73bf1f;height:508px;line-height:1.42em;}
+.typoon_greenbox img{vertical-align:top;}
+.typoon_greenbox p.info{padding:7px 0 3px 0px;height:13px;line-height:1em;}
+.typoon_greenbox p.info strong{color:#73bf1f;}
+.typoon_greenbox p.info img{vertical-align:middle;}
+.typoon_greenbox p.more{border-top:2px solid #c2c0c0;padding:6px 0 0 5px;height:24px;text-align:left;margin-top:3px;line-height:1.7em; background:#73bf1f; color:#fff;}
+.typoon_greenbox p.more img{margin-top:-1px;}
+
+#typoon_info{text-align:center;height:485px;}
+#typoon_info table{border-top:2px solid #c2c0c0;width:100%;text-align:center;margin-bottom:3px;}
+#typoon_info table th{border-right:1px solid #c8c8c8;border-bottom:1px solid #c8c8c8;padding:6px 0 3px 1px;line-height:1.25em;background:url(../../images/mini/typoon/bg_th_gradation.gif) no-repeat left bottom;}
+#typoon_info table th.bg{background:url(../../images/mini/typoon/bg_th_gradation.gif) no-repeat left top;}
+#typoon_info table td{border-right:1px solid #c8c8c8;border-bottom:1px solid #c8c8c8;padding:9px 0 6px 1px;line-height:1em;}
+#typoon_info table td.height{height:42px;line-height:1em;padding:3px 0 0 0;}
+#typoon_info .img_border{border:1px solid #0e0e0e;width:423px;margin:0;padding:0;}
+#typoon_info .img_border img.png24{width:423px;}
+
+#typoon_movie{text-align:center;height:440px;padding:67px 0 0 0;}
+#typoon_movie .image{padding-bottom:45px;}
+
+#typoon_forecast{text-align:center;height:440px;padding:67px 0 0 0;}
+#typoon_forecast .image{padding-bottom:100px;}
+
+#mini_typoon_right{float:left;width:535px;font-size:0.95em;}
+#mini_typoon_right h3{font-size:0.95em;}
+#mini_typoon_right img{vertical-align:top;}
+#mini_typoon_right ul{clear:left;overflow:hidden;}
+#mini_typoon_right ul li{float:left;}
+
+.typoon_count{position:relative;margin-bottom:19px;}
+.typoon_count h3{margin-bottom:6px;}
+.typoon_count table{border:2px solid #4487ab;width:100%;margin-bottom:3px;text-align:center;}
+.typoon_count table thead th{border-right:1px solid #a3c6e6;border-bottom:2px solid #3779b9;padding:6px 5px 3px 5px;color:#fff;background:#3f84c6;}
+.typoon_count table tbody th{border-right:1px solid #dadada;padding:8px 5px 4px 5px;background:#f8f8f8;}
+.typoon_count table tbody td{border-right:1px solid #dadada;padding:8px 5px 4px 5px;background:#f8f8f8;}
+.typoon_count p{text-align:right;color:#424242;padding-right:2px;}
+.typoon_count div.more{position:absolute;right:3px;top:2px;}
+
+.bx_round_typoon{background:url(../../images/mini/typoon/bx_round.gif) no-repeat left top;width:535px;height:74px;padding:10px 0 0 0; margin-bottom:22px; }
+.bx_round_typoon h3{margin-bottom:6px;}
+.bx_round_typoon div.bg_action{background:url(../../images/mini/typoon/bg_action.gif) no-repeat 210px 2px;position:relative;float:left;width:247px;padding-left:20px;height:66px;padding-top:8px;}
+.bx_round_typoon div.bg_book{background:url(../../images/mini/typoon/bg_book.gif) no-repeat 210px 2px;float:left;position:relative;width:248px;padding-left:20px;height:66px;padding-top:8px;}
+.bx_round_typoon div.bg_book h3{padding-left:20px;}
+.bx_round_typoon div.bg_book p{padding-left:20px;}
+.bx_round_typoon div.bg_action .more_detail{position:absolute;left:170px;top:38px;}
+.bx_round_typoon div.bg_book .more_detail{position:absolute;left:170px;top:38px;}
+
+
+.typoon_statistics{height:84px;margin:5px 0 0 0; background:url(../../images/mini/typoon/bg_statistics.gif) no-repeat left top; width:358px; margin-bottom:21px;}
+.typoon_statistics li{width:110px;height:63px;padding:19px 0 0 10px;position:relative;}
+.typoon_statistics li a{position:absolute;left:10px;bottom:13px;}
+.typoon_statistics li.first{}
+.typoon_statistics li.second{}
+.typoon_statistics li.third{width:108px;}
+
+.typoon_center{margin:5px 0 19px 0;}
+.typoon_center li{padding-right:9px;}
+.typoon_center li img{padding-bottom:1px;}
+.typoon_center li.padnone{padding-right:0;}
+
+.typoon_sitelink{margin:5px 0 0 0;}
+.typoon_sitelink li{padding-bottom:6px;}
+.typoon_sitelink li.padnone{padding-bottom:0;}
+.typoon_sitelink li img{vertical-align:top;}
+
+.info_quicklink2{float:left; margin-left:12px; margin-bottom:23px; display:inline;}
+.info_quicklink2 h3{margin-bottom:7px;}
+.info_quicklink2 ul{width:165px; height:83px; background:#e1e1e1;}
+.info_quicklink2 ul li{float:left; padding:1px 0 0 1px;}
+.info_quicklink2 ul li img{vertical-align:top;}
+
+/* ¹Ù´Ù³¯¾¾ */
+.marine_wrap{display:inline-block; width:980px; margin-bottom:18px;}
+.marine_left{width:326px; height:524px; float:left;}
+.marine_right{width:580px; height:551px; float:right;}
+.marine_right .marine_right_info{overflow:hidden; height:191px; margin-bottom:18px;}
+.marine_right .marine_right_info .satellite_wrap{float:left; width:360px; height:189px;}
+.marine_right .marine_right_info .satellite_fog{float:left; margin:0 6px 21px 0; display:inline; width:170px; height:189px;}
+.marine_right .marine_right_info .satellite_fog p{}
+.marine_right .marine_right_info .satellite_fog h3{margin-bottom:7px;  vertical-align:top; height:13px;}
+.marine_right .marine_right_info .satellite_fog h3 img{vertical-align:top;}
+.marine_right .marine_right_info .satellite_degree{float:left; width:170px; height:189px;}
+.marine_right .marine_right_info .satellite_degree h3{margin-bottom:7px;  vertical-align:top; height:13px;}
+.marine_right .marine_right_info .satellite_degree h3 img{vertical-align:top;}
+.wrap_directlink{float:left;}
+.wrap_directlink h3{margin-bottom:6px; }
+.wrap_directlink h3 img{vertical-align:top;}
+.marine_right .marine_right_link{width:121px; height:169px; background:#e2e2e2; float:left;}
+.marine_right .marine_right_link li{float:left; padding:1px 0 0 1px;}
+.marine_right .marine_right_link li img{vertical-align:top;}
+
+.info_quicklink3{float:left; margin-left:12px; margin-bottom:20px; display:inline;}
+.info_quicklink3 h3{margin-bottom:7px;  }
+.info_quicklink3 h3 img{vertical-align:top;}
+.info_quicklink3 ul{width:85px; height:169px; background:#e1e1e1;}
+.info_quicklink3 ul li{float:left; padding:1px 0 0 1px;}
+.info_quicklink3 ul li img{vertical-align:top;}
+
+.marine_right .marine_linkzone_wrap h3{margin-bottom:7px; font-size:0;}
+.marine_right ul.marine_linkzone{overflow:hidden; clear:both; float:left;}
+.marine_right ul.marine_linkzone li{float:left; margin-right:7px; display:inline;}
+.marine_right ul.marine_linkzone li.right{margin-right:0;}
+.marine_info_wrap h3{margin:0 0 0 1px;}
+.marine_info_wrap h3 img{vertical-align:top;}
+.marine_info{width:980px; height:36px; padding-top:5px;  }
+.marine_info li{float:left;}
+
+/******************************************************************************************//* °Ë»ö */
+.marine_search_finder{background:url(../../images/mini/bg_marine_search_finder.gif) no-repeat left top;width:561px;height:30px;padding:10px 0 12px 19px;line-height:1.4em;}
+.marine_search_finder img{padding:2px 5px 0 0;vertical-align:top;}
+.marine_search_finder select{font-size:0.95em;height:19px;border-top:1px solid #abadb3;border-right:1px solid #e2e3ea;border-left:1px solid #e2e3ea;border-bottom:1px solid #e2e3ea;vertical-align:top;}
+.marine_search_finder select.breadth1{width:90px;}
+
+.mini_marine_announce_time{margin-bottom:6px;line-height:1.3em; float:right;}
+.mini_marine_announce_time em{font-weight:normal;color:#0958a5;display:inline-block;padding-top:1px;}
+.mini_marine_announce_time img{padding-right:5px;vertical-align:top;}
+
+.mini_marine_daily_box{clear:left;overflow:hidden;width:580px; height:210px; margin-bottom:17px;}
+.mini_marine_daily_box h4{float:left; color:#444444; font-size:1em; margin-left:1px; display:inline;}
+.mini_marine_daily_right{float:left;width:288px;}
+.mini_marine_daily_box table{width:579px; margin-left:1px;text-align:center; clear:both;}
+.mini_marine_daily_box table .tomorrow{background:#f1fdf0;}
+.mini_marine_daily_box table thead th{padding:7px 0 4px 0; border:1px solid #c7c7c7; border-bottom:none;color:#3e3b3b;}
+.mini_marine_daily_box table thead th.left{color:#6e7071; background:#eff3f5;}
+.mini_marine_daily_box tbody th{padding:7px 0 4px 0; border-top:none; border:1px solid #c7c7c7; color:#6e7071; background:#eff3f5; font-size:0.95em;}
+.mini_marine_daily_box tbody td{padding:7px 0 4px 0; border-top:none; border:1px solid #c7c7c7; text-align:center; font-size:0.95em;}
+.mini_marine_daily_box tbody td.padding_none{padding:4px 0;}
+.mini_marine_daily_box tbody th span.unit{color:#a4a2a2 !important;}
+.mini_marine_daily_box tbody tr.time td{padding-bottom:0 !important; padding-top:6px;}
+.mini_marine_daily_box tbody tr.time th{padding-bottom:0 !important; padding-top:4px;}
+
+
+#mini_marine_left{float:left;width:381px; height:551px; display:inline; font-size:0.95em; background:#73bf1f;}
+#mini_marine_left h3{font-size:0.95em;}
+
+#tab_mini_marine{clear:left;overflow:hidden;}
+#tab_mini_marine li{float:left;}
+#tab_mini_marine li img{vertical-align:top;}
+
+.marine_greenbox{line-height:1.42em; height:469px;}
+.marine_greenbox img{vertical-align:top;}
+.marine_greenbox p.info{padding:7px 0 3px 35px;height:13px;line-height:1em;}
+.marine_greenbox p.info strong{color:#73bf1f;}
+.marine_greenbox p.info img{vertical-align:middle;}
+.marine_greenbox p.more{padding:0 0 0 5px;height:20px;text-align:left; line-height:1.7em; letter-spacing:-1px; color:#fff;}
+.marine_greenbox p.more span{padding-top:1px; display:inline-block;}
+
+/* ºÎÀÌ */
+#marine_info .buoy .wrap_pago{width:93px; height:78px; padding-top:23px; position:relative; right:1px; top:117px;}
+
+#marine_info .buoy{background:url(../../images/mini/bg_buoy_1.gif) no-repeat left top; width:381px; height:500px; position:relative;} /*2014.12.12*/
+#marine_info .buoy .time{text-align:right; padding:5px 5px 0 0;}
+
+/* 20130619_¿° */
+/*#marine_info .buoy .eastsea{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; right:42px; top:60px;}
+*/
+#marine_info .buoy .eastsea{width:93px; height:78px; padding-top:23px; position:absolute; right:44px; top:27px;}      /*20160218*/
+#marine_info .buoy .eastsea h4{position:absolute; left:33px; top:18px; z-index:10;}
+#marine_info .buoy .eastsea p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_info .buoy .ulleungdo{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; right:-18px; top:30px;}
+#marine_info .buoy .ulleungdo h4{position:absolute; left:33px; top:18px; z-index:10;}
+#marine_info .buoy .ulleungdo p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+
+#marine_info .buoy dl{background:url(../../images/mini/bg_buoy_dl_1.gif) no-repeat center top; color:#7b6519;padding-top:12px; position:relative; height:34px;}
+#marine_info .buoy dl dt{font-size:0.95em; line-height:9px; text-align:center;}
+#marine_info .buoy dl dd{width:27px; height:27px;}
+#marine_info .buoy dl dd.arrow_N{position:absolute; left:32px; top:-32px;}
+#marine_info .buoy dl dd.arrow_NNE{position:absolute; left:44px; top:-27px;}
+#marine_info .buoy dl dd.arrow_NE{position:absolute; left:56px; top:-12px;}
+#marine_info .buoy dl dd.arrow_ENE{position:absolute; left:62px; top:0px;}
+#marine_info .buoy dl dd.arrow_E{position:absolute; left:69px; top:12px;}
+#marine_info .buoy dl dd.arrow_ESE{position:absolute; left:61px; top:24px;}
+#marine_info .buoy dl dd.arrow_SE{position:absolute; left:53px; top:40px;}
+#marine_info .buoy dl dd.arrow_SSE{position:absolute; left:42px; top:42px;}
+#marine_info .buoy dl dd.arrow_S{position:absolute; left:32px; top:48px;}
+#marine_info .buoy dl dd.arrow_SSW{position:absolute; left:23px; top:42px;}
+#marine_info .buoy dl dd.arrow_SW{position:absolute; left:12px; top:40px;}
+#marine_info .buoy dl dd.arrow_WSW{position:absolute; left:5px; top:24px;}
+#marine_info .buoy dl dd.arrow_W{position:absolute; left:0px; top:11px;}
+#marine_info .buoy dl dd.arrow_WNW{position:absolute; left:3px; top:0px;}
+#marine_info .buoy dl dd.arrow_NW{position:absolute; left:8px; top:-13px;}
+#marine_info .buoy dl dd.arrow_NNW{position:absolute; left:19px; top:-27px;}
+
+/* 20130619_¿° */
+#marine_info .buoy .pohang{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:270px; top:159px;}
+#marine_info .buoy .pohang h4{position:absolute; left:33px; top:18px; z-index:10;}
+#marine_info .buoy .pohang p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+/*#marine_info .buoy .duckjuckdo{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:42px; top:92px;}*/
+#marine_info .buoy .duckjuckdo{width:93px; height:78px; padding-top:23px; position:absolute;left:77px; top:85px;} /*20160218*/
+#marine_info .buoy .duckjuckdo h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_info .buoy .duckjuckdo p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+
+#marine_info .buoy dl.two{background:url(../../images/mini/bg_buoy_dl_2.gif) no-repeat center top; color:#3761ac;padding-top:12px; position:relative; height:34px;}
+#marine_info .buoy dl.two dt{font-size:0.95em; line-height:9px; text-align:center;}
+#marine_info .buoy dl.two dd{width:27px; height:27px;}
+#marine_info .buoy dl.three{background:url(../../images/mini/bg_buoy_dl_3.gif) no-repeat center top; color:#3761ac;padding-top:12px; position:relative; height:34px;}
+#marine_info .buoy dl.three dt{font-size:0.95em; line-height:9px; text-align:center;}
+#marine_info .buoy dl.three dd{width:27px; height:27px;}
+#marine_info .buoy dl.four{background:url(../../images/mini/bg_buoy_dl_4.gif) no-repeat center top; color:#5b479d;padding-top:12px; position:relative; height:34px;}
+#marine_info .buoy dl.four dt{font-size:0.95em; line-height:9px; text-align:center;}
+#marine_info .buoy dl.four dd{width:27px; height:27px;}
+
+/* 20130619_¿° */
+
+#marine_info .buoy .shinan{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:100px; top:240px;}
+#marine_info .buoy .shinan h4{position:absolute; left:33px; top:18px; z-index:10;}
+#marine_info .buoy .shinan p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_info .buoy .chilbaldo{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:40px; top:240px;}
+#marine_info .buoy .chilbaldo h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_info .buoy .chilbaldo p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+/*#marine_info .buoy .geomundo{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:150px; top:290px;}*/
+#marine_info .buoy .geomundo{width:93px; height:78px; padding-top:23px; position:absolute;left:131px; top:292px;} /*20160218*/
+#marine_info .buoy .geomundo h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_info .buoy .geomundo p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_info .buoy .geojedo{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:230px; top:251px;}
+#marine_info .buoy .geojedo h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_info .buoy .geojedo p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_info .buoy .marado{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:30px; top:398px;}
+#marine_info .buoy .marado h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_info .buoy .marado p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+/*#marine_info .buoy .ueyeondo{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:60px; top:150px;}*/
+#marine_info .buoy .ueyeondo{width:93px; height:78px;padding-top:23px; position:absolute;left:77px; top:150px;}   /*20160218*/
+#marine_info .buoy .ueyeondo h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_info .buoy .ueyeondo p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_info .buoy .chujado{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:68px; top:316px;}
+#marine_info .buoy .chujado h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_info .buoy .chujado p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+
+#marine_info .buoy div.buoycont{width:93px; height:78px;padding-top:23px; position:absolute;}
+#marine_info .buoy div p.waveheight{text-align:center; background:url(../../images/mini/bg_wave.gif) no-repeat center top;position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_info .buoy div h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_info .buoy dl dd{z-index:100;}
+
+#marine_info .buoy .buan{position:absolute;top: 180px;left: 20px;}
+#marine_info .buoy .incheon{position:absolute; left:21px; top:101px;}
+#marine_info .buoy .seoguipo{position:absolute;top: 396px;left: 114px;}
+#marine_info .buoy .tongyoung{position:absolute;top: 276px;left: 185px;}
+#marine_info .buoy .ulsan{position:absolute; top:219px; left:283px;}
+#marine_info .buoy .ulzin{position:absolute;top: 103px;left: 262px;}
+
+#marine_info .buoy .buoy_comment{position:absolute; top:347px; left:316px;}
+
+.buoy_place{position:absolute; left:242px; top:367px;}
+
+/* µîÇ¥ */
+#marine_movie .buoy .wrap_pago{width:93px; height:78px; padding-top:23px; position:relative; right:1px; top:117px;}
+
+#marine_movie .buoy{background:url(../../images/mini/bg_buoy_1.gif) no-repeat left top; width:381px; height:500px; position:relative;} /*2014.12.12*/
+#marine_movie .buoy .time{text-align:right; padding:5px 5px 0 0;}
+#marine_movie .buoy .eastsea{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; right:34px; top:34px;}
+#marine_movie .buoy .eastsea h4{position:absolute; left:33px; top:18px; z-index:10;}
+#marine_movie .buoy .eastsea p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_movie .buoy dl{background:url(../../images/mini/bg_buoy_dl_1.gif) no-repeat center top; color:#7b6519;padding-top:12px; position:relative; height:34px;}
+#marine_movie .buoy dl dt{font-size:0.95em; line-height:9px; text-align:center;}
+#marine_movie .buoy dl dd{width:27px; height:27px;}
+#marine_movie .buoy dl dd.arrow_N{position:absolute; left:32px; top:-32px;}
+#marine_movie .buoy dl dd.arrow_NNE{position:absolute; left:44px; top:-27px;}
+#marine_movie .buoy dl dd.arrow_NE{position:absolute; left:56px; top:-12px;}
+#marine_movie .buoy dl dd.arrow_ENE{position:absolute; left:62px; top:0px;}
+#marine_movie .buoy dl dd.arrow_E{position:absolute; left:69px; top:12px;}
+#marine_movie .buoy dl dd.arrow_ESE{position:absolute; left:61px; top:24px;}
+#marine_movie .buoy dl dd.arrow_SE{position:absolute; left:53px; top:40px;}
+#marine_movie .buoy dl dd.arrow_SSE{position:absolute; left:42px; top:42px;}
+#marine_movie .buoy dl dd.arrow_S{position:absolute; left:32px; top:48px;}
+#marine_movie .buoy dl dd.arrow_SSW{position:absolute; left:23px; top:42px;}
+#marine_movie .buoy dl dd.arrow_SW{position:absolute; left:12px; top:40px;}
+#marine_movie .buoy dl dd.arrow_WSW{position:absolute; left:5px; top:24px;}
+#marine_movie .buoy dl dd.arrow_W{position:absolute; left:0px; top:11px;}
+#marine_movie .buoy dl dd.arrow_WNW{position:absolute; left:3px; top:0px;}
+#marine_movie .buoy dl dd.arrow_NW{position:absolute; left:8px; top:-13px;}
+#marine_movie .buoy dl dd.arrow_NNW{position:absolute; left:19px; top:-27px;}
+
+#marine_movie .buoy .pohang{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:277px; top:159px;}
+#marine_movie .buoy .pohang h4{position:absolute; left:33px; top:18px; z-index:10;}
+#marine_movie .buoy .pohang p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_movie .buoy .duckjuckdo{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:42px; top:102px;}
+#marine_movie .buoy .duckjuckdo h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_movie .buoy .duckjuckdo p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+
+#marine_movie .buoy dl.two{background:url(../../images/mini/bg_buoy_dl_2.gif) no-repeat center top; color:#3761ac;padding-top:12px; position:relative; height:34px;}
+#marine_movie .buoy dl.two dt{font-size:0.95em; line-height:9px; text-align:center;}
+#marine_movie .buoy dl.two dd{width:27px; height:27px;}
+#marine_movie .buoy dl.three{background:url(../../images/mini/bg_buoy_dl_3.gif) no-repeat center top; color:#3761ac;padding-top:12px; position:relative; height:34px;}
+#marine_movie .buoy dl.three dt{font-size:0.95em; line-height:9px; text-align:center;}
+#marine_movie .buoy dl.three dd{width:27px; height:27px;}
+#marine_movie .buoy dl.four{background:url(../../images/mini/bg_buoy_dl_4.gif) no-repeat center top; color:#5b479d;padding-top:12px; position:relative; height:34px;}
+#marine_movie .buoy dl.four dt{font-size:0.95em; line-height:9px; text-align:center;}
+#marine_movie .buoy dl.four dd{width:27px; height:27px;}
+#marine_movie .buoy dl.five{background:url(../../images/mini/bg_buoy_dl_5.gif) no-repeat 6px top; color:#5b479d;padding-top:12px; position:relative; height:34px;}
+#marine_movie .buoy dl.five dt{font-size:0.95em; line-height:9px; text-align:center;}
+#marine_movie .buoy dl.five dd{width:27px; height:27px;}
+
+#marine_movie .buoy .chilbaldo{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:42px; top:279px;}
+#marine_movie .buoy .chilbaldo h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_movie .buoy .chilbaldo p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_movie .buoy .geomundo{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:159px; top:314px;}
+#marine_movie .buoy .geomundo h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_movie .buoy .geomundo p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_movie .buoy .geojedo{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:244px; top:251px;}
+#marine_movie .buoy .geojedo h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_movie .buoy .geojedo p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_movie .buoy .marado{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:30px; top:398px;}
+#marine_movie .buoy .marado h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_movie .buoy .marado p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+
+#marine_movie .buoy .seosudo{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:123px; top:75px;}
+#marine_movie .buoy .seosudo h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_movie .buoy .seosudo p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_movie .buoy .gadaeam{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:48px; top:114px;}
+#marine_movie .buoy .gadaeam h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_movie .buoy .gadaeam p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_movie .buoy .sibedongpa{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:129px; top:170px;}
+#marine_movie .buoy .sibedongpa h4{position:absolute; left:23px; top:18px; z-index:10;}
+#marine_movie .buoy .sibedongpa p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_movie .buoy .galmaeyeo{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:50px; top:211px;}
+#marine_movie .buoy .galmaeyeo h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_movie .buoy .galmaeyeo p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_movie .buoy .educkseo{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:280px; top:175px;}
+#marine_movie .buoy .educkseo h4{position:absolute; left:29px; top:18px;  z-index:10;}
+#marine_movie .buoy .educkseo p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_movie .buoy .kwangan{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:239px; top:237px;}
+#marine_movie .buoy .kwangan h4{position:absolute; left:33px; top:18px;  z-index:10;}
+#marine_movie .buoy .kwangan p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_movie .buoy .ganyeoam{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:178px; top:276px;}
+#marine_movie .buoy .ganyeoam h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_movie .buoy .ganyeoam p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_movie .buoy .haesuseo{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:79px; top:294px;}
+#marine_movie .buoy .haesuseo h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_movie .buoy .haesuseo p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+#marine_movie .buoy .jiguido{width:93px; height:78px; position:relative; padding-top:23px; position:absolute; left:110px; top:386px;}
+#marine_movie .buoy .jiguido h4{position:absolute; left:29px; top:18px; z-index:10;}
+#marine_movie .buoy .jiguido p{text-align:center;background:url(../../images/mini/bg_wave.gif) no-repeat center top; position:absolute; left:0; top:55px; width:40px; margin-left:28px; font-size:0.95em;}
+
+#marine_movie .buoy .buoy_comment{position:absolute; top:347px; left:316px;}
+
+.buoy_place{position:absolute; left:242px; top:367px;}
+
+#marine_movie{text-align:center;height:440px;}
+#marine_movie .image{padding-bottom:45px;}
+
+#marine_forecast{height:34px;}
+
+.buoy_place{position:absolute; left:242px; top:367px;}
+
+.weather_main_top{clear:both; margin-bottom:15px; border:2px solid #cdcdcd; height:27px; padding:4px 11px 0 9px; overflow:hidden;}
+.weather_main_top h1{float:left; font-size:1em; line-height:normal;}
+.weather_main_top h1 img{vertical-align:top;}
+.weather_main_top p{float:left; padding:4px 0 0 9px;   line-height:15px;}
+.weather_main_top p.btn{float:right; padding-top:6px;}

@@ -1,0 +1,241 @@
+@charset "euc-kr";
+
+#intro_left{float:left; margin:0 30px 0 0; padding-bottom:44px; width:190px; height:438px;}
+
+#notice{position:relative; width:100%; height:110px; background:url(../../images/kwangju/intro/bg_popupzone.gif) no-repeat; margin-bottom:13px;}
+#notice h3{padding:8px 0 5px 9px; font-size:1%;}
+#notice dl dt{position:absolute;left:94px;top:0;}
+#notice dl dt img{vertical-align:top;display:block;}
+#notice dl dt.slidebutton-1{position:absolute;left:72px;top:8px;}
+#notice dl dt.slidebutton-2{position:absolute;left:91px;top:8px;}
+#notice dl dt.slidebutton-3{position:absolute;left:110px;top:8px;}
+#notice dl dt.slidebutton-4{position:absolute;left:129px;top:8px;}
+#notice dl dt.slidebutton-5{position:absolute;left:148px;top:8px;}
+#notice dl dt.slidebutton-6{position:absolute;left:167px;top:8px;}
+#notice dl dd{position:absolute;margin-left:10px; border:1px solid #e7e7e7;}
+#notice dl dd img{vertical-align:top;}
+
+.main_player_notice{position:absolute; left:43px; top:9px; width:100%; height:10px;}
+.main_player_notice li{float:left; background:none !important; padding:0 !important; margin-right:3px;}
+.main_player_notice li img{vertical-align:top;}
+
+.popupzone{position:relative; width:100%; height:110px; background:url(../../images/kwangju/intro/bg_popupzone.gif) no-repeat; margin-bottom:13px;}
+.popupzone h3{padding:8px 0 5px 9px; font-size:1%;}
+.popupzone p{margin:0 0 0 10px; width:171px; height:75px; border:1px solid #e7e7e7;}
+.popupzone p img{vertical-align:top;}
+.popupzone ol{position:absolute; left:72px; top:7px;}
+.popupzone ol li{float:left; line-height:1em; margin-right:3px;}
+
+.quickzone{width:100%; height:315px; background:url(../../images/kwangju/intro/bg_quickzone.gif) no-repeat;}
+.quickzone h3{padding:17px 0 0 13px; font-size:1%;}
+.quickzone h3 img{vertical-align:top;}
+
+.quickzone .btn_director{padding:19px 0 19px 112px; width:78px;}
+.quickzone .btn_director li{margin-bottom:8px; line-height:1em; font-size:1%;}
+
+.quickzone .btn_quick{overflow:hidden; padding:11px 0 0 13px; width:177px;height:68px;}
+.quickzone .btn_quick li{float:left; margin:0 5px 5px 0;}
+.quickzone .btn_quick li.none{margin-bottom:0;}
+
+.quickzone .btn_work{overflow:hidden; padding:8px 0 12px 13px; width:177px;}
+.quickzone .btn_work li{float:left; margin-right:3px; line-height:1em;}
+.quickzone .btn_work li img{vertical-align:top;}
+
+.quickzone .map_h3{float:left; padding:10px 0 19px 60px;}
+.quickzone .map_h3 img{margin-bottom:1px;}
+.quickzone .map_go{float:right; padding:17px 19px 21px 0; line-height:1em; font-size:1%;}
+.quickzone .map_go img{vertical-align:top;}
+
+#intro_center{float:left; margin:0 30px 0 0; padding-bottom:44px; width:520px; height:438px;}
+#intro_center h3{font-size:0.95em;line-height:1em;}
+#intro_center h3 img{vertical-align:top;}
+
+.visual_area{margin-bottom:23px; width:520px; height:180px;}
+.visual_area2{margin-bottom:14px; width:980px; height:136px;}
+.visual_area2 img{width:980px; height:136px;}
+
+/* 오전 오후 수정 하는곳 height:520px;  */
+.wrap_center_top{height:630px;}
+
+
+#bbs_box{position:relative; width:520px; height:107px;}
+#bbs_box p.more_hid{display:none;}
+#bbs_box p.more{position:absolute; top:7px; right:3px; width:28px; height:9px;}
+#bbs_box p.more img{display:block;}
+#bbs_box .hid{display:none;}
+#bbs_box .view{display:block;}
+#bbs_box ul{position:absolute; left:0; top:21px; width:520px; border-top:1px solid #dadada; padding-top:8px; z-index:1; float:left;}
+#bbs_box ul li{float:left; padding-top:2px; width:520px;}
+#bbs_box .mlist{float:left; width:460px; background:url(../../images/kwangju/intro/bu_square_blue.gif) no-repeat 5px 6px; padding-left:14px;}
+#bbs_box .date{float:right; width:45px; padding:0;}
+#notice_tab h3 {position: absolute; left:0; top:0; z-index:3;}
+#event_tab h3 {position: absolute; left:69px; top:0; z-index:3;}
+#question_tab h3 {position: absolute; left:138px; top:0; z-index:3;}
+#employbusan_tab h3 {position: absolute; left:207px; top:0; z-index:3;}
+
+#bbs_box2{margin-top:23px; width:518px; height:105px;}
+#bbs_box2 ul{position:absolute; left:0; top:18px; width:245px; border-top:1px solid #dadada; padding-top:8px; z-index:1; float:left;}
+#bbs_box2 ul li{float:left; padding-top:2px; width:245px;}
+#bbs_box2 .bbs_news{position:relative; float:left; width:243px; height:105px; margin-right:30px;}
+#bbs_box2 .bbs_knowledge{position:relative; float:left; width:243px; height:105px;}
+#bbs_box2 .bbs_news .btn_more{position:absolute; top:3px; right:3px; width:28px; height:9px; font-size:1%;}
+#bbs_box2 .bbs_knowledge .btn_more{position:absolute; top:3px; right:3px; width:28px; height:9px; font-size:1%;}
+#bbs_box2 .btn_more img{vertical-align:top;}
+#bbs_box2 .mlist{float:left; width:185px; background:url(../../images/kwangju/intro/bu_square_blue.gif) no-repeat 5px 6px; padding-left:14px;}
+#bbs_box2 .date{float:right; width:45px; padding:0;}
+
+
+#intro_right{float:left; margin:0 0 0 0; padding-bottom:44px; width:210px; height:438px;}
+
+.bannerzone{margin-bottom:23px;}
+.bannerzone li{margin-bottom:6px;}
+.bannerzone li.none{margin-bottom:0;}
+
+.btnzone{width:100%; margin-bottom:12px;}
+.btnzone li img{vertical-align:top;}
+.btnzone li.btn_left{float:left; margin-bottom:4px;}
+.btnzone li.btn_right{float:right; margin-bottom:4px;}
+
+.related_h3{line-height:1em; font-size:1%; margin-bottom:4px;}
+.related_h3 img{vertical-align:top;}
+.form_related{width:210px; height:20px; overflow:hidden;}
+.form_related select{float:left; margin-right:2px; width:170px; height:19px; border:1px solid #d5d3d3; vertical-align:top;}
+.form_related input{float:left; width:35px; height:19px;}
+
+.publication_box{position:relative; margin-top:21px;}
+.publication_box h3{line-height:1em; font-size:1%;}
+.publication_box h3 img{vertical-align:top;}
+.publication_box div{overflow:hidden; width:208px; margin-top:4px; padding:10px 0 0 2px; border-top:1px solid #dadada;}
+.publication_box p.photo{float:left; margin-right:9px; width:58px; height:76px;}
+.publication_box p.photo img{width:56px; height:74px;}
+.publication_box dl{float:left; width:140px;}
+.publication_box dl dt{color:#0958a5;}
+.publication_box dl dd{color:#5c5c5c; margin-top:2px; line-height:1.3em;}
+.publication_box dl dd.date{color:#919191; margin-top:6px; font-size:0.95em;}
+.publication_box .btn_more{position:absolute; top:3px; right:3px; width:28px; height:9px; font-size:1%; z-index:10;}
+.publication_box .btn_more img{vertical-align:top;}
+
+
+/* 지방기상청수정 */
+.weather_dfs2{display:inline-block; width:100%; clear:both; margin-top:0 !important; position:relative;}
+.weather_dfs2 h1{float:left; padding-top:10px; font-size:0; margin-bottom:6px; display:inline; background:#fff;}
+.weather_dfs2 p.town2{float:right; font-size:0.95em; padding-top:8px; height:22px; display:inline; line-height:normal; color:#999; background:#fff;}
+
+p.date_comment_jibang{clear:both; text-align:right; color:#999; font-size:0.95em; line-height:normal; padding:2px 4px 2px 0;}
+
+.wrap_weather_info_jibang{ background:url(/images/weather/main/bg_weather_info_jibang.gif) no-repeat left top; overflow:hidden; width:301px; height:86px; float:left; margin-right:3px;}
+.wrap_weather_info_jibang_new {width:275px !important; background:url(/images/weather/main/bg_weather_info_jibang_new.gif) no-repeat left top !important;}
+.wrap_weather_info_jibang .weather_info_top{overflow:hidden;}
+.wrap_weather_info_jibang .weather_info_top h3{color:#fff; height:22px; padding:1px 0 0 0; text-align:center; font-size:14px !important; line-height:20px !important;}
+.wrap_weather_info_jibang .info{padding-left:13px;}
+.wrap_weather_info_jibang .info img{float:left; width:55px;}
+.wrap_weather_info_jibang_new .info{padding-left:10px !important;}
+.wrap_weather_info_jibang_new .info img{float:left; width:50px !important;}
+.wrap_weather_info_jibang .info span{font-size:28px; font-weight:bold; float:left; line-height:40px; padding-top:8px; width:80px; color:#cc3333; letter-spacing:-3px; font-family:Arial !important; text-align:center;}
+.wrap_weather_info_jibang_new .info span{font-size:24px !important; width:76px !important;}
+.wrap_weather_info_jibang ul{float:left; width:153px; line-height:normal; padding-top:4px;}
+.wrap_weather_info_jibang_new ul{float:left; width:133px !important; line-height:normal; padding-top:4px;}
+.wrap_weather_info_jibang ul li{width:170px; display:block;  margin-bottom:3px; padding-left:8px; background:url(/images/weather/main/bu_weather_info.gif) no-repeat left 5px;}
+.wrap_weather_info_jibang ul li.long{width:170px;}
+
+.wrap_weather_info_jibang2{ background:url(/images/weather/main/bg_weather_info_jibang2.gif) no-repeat left top; overflow:hidden; width:106px; height:86px; float:left; margin-right:3px;}
+.wrap_weather_info_jibang2 .weather_info_top{overflow:hidden;}
+.wrap_weather_info_jibang2 .weather_info_top h3{font-size:1em; color:#666; height:20px; padding:3px 0 0 0; text-align:center; line-height:16px !important;}
+.wrap_weather_info_jibang2 .info{text-align:center;}
+.wrap_weather_info_jibang2 .info img{width:40px; vertical-align:top;}
+.wrap_weather_info_jibang2 .info span{display:block; margin-top:-5px;}
+
+.wrap_weather_info_jibang2_1{ background:url(/images/weather/main/bg_weather_info_jibang2.gif) no-repeat left top; overflow:hidden; width:106px; height:86px; float:left;}
+.wrap_weather_info_jibang2_1 .weather_info_top{overflow:hidden;}
+.wrap_weather_info_jibang2_1 .weather_info_top h3{font-size:1em; color:#666; height:20px; padding:3px 0 0 0; text-align:center; line-height:16px !important;}
+.wrap_weather_info_jibang2_1 .info{text-align:center;}
+.wrap_weather_info_jibang2_1 .info img{width:40px; vertical-align:top;}
+.wrap_weather_info_jibang2_1 .info span{display:block; margin-top:-5px;}
+
+.wrap_weather_info_jibang3{ background:url(/images/weather/main/bg_weather_info_jibang3.gif) no-repeat left top; overflow:hidden; width:70px; height:86px; float:left; margin-right:3px;}
+.wrap_weather_info_jibang3 .weather_info_top{overflow:hidden;}
+.wrap_weather_info_jibang3 .weather_info_top h3{font-size:1em; color:#666; height:20px; padding:3px 0 0 0; text-align:center; line-height:16px !important;}
+.wrap_weather_info_jibang3 .info{text-align:center;}
+.wrap_weather_info_jibang3 .info img{width:40px; vertical-align:top;}
+.wrap_weather_info_jibang3 .info span{display:block; margin-top:-5px;}
+
+.wrap_weather_info_jibang3_1{ background:url(/images/weather/main/bg_weather_info_jibang3.gif) no-repeat left top; overflow:hidden; width:70px; height:86px; float:left;}
+.wrap_weather_info_jibang3_1 .weather_info_top{overflow:hidden;}
+.wrap_weather_info_jibang3_1 .weather_info_top h3{font-size:1em; color:#666; height:20px; padding:3px 0 0 0; text-align:center; line-height:16px !important;}
+.wrap_weather_info_jibang3_1 .info{text-align:center;}
+.wrap_weather_info_jibang3_1 .info img{width:40px; vertical-align:top;}
+.wrap_weather_info_jibang3_1 .info span{display:block; margin-top:-5px;}
+
+.wrap_weather_info_jibang4{ background:url(/images/weather/main/bg_weather_info_jibang4.gif) no-repeat left top; overflow:hidden; width:58px; height:86px; float:left; margin-right:3px;}
+.wrap_weather_info_jibang4 .weather_info_top{overflow:hidden;}
+.wrap_weather_info_jibang4 .weather_info_top h3{font-size:1em; color:#666; height:20px; padding:3px 0 0 0; text-align:center; line-height:16px !important;}
+.wrap_weather_info_jibang4 .info{text-align:center;}
+.wrap_weather_info_jibang4 .info img{width:40px; vertical-align:top;}
+.wrap_weather_info_jibang4 .info span{display:block; margin-top:-5px;}
+
+.wrap_weather_info_jibang4_1{ background:url(/images/weather/main/bg_weather_info_jibang4.gif) no-repeat left top; overflow:hidden; width:58px; height:86px; float:left;}
+.wrap_weather_info_jibang4_1 .weather_info_top{overflow:hidden;}
+.wrap_weather_info_jibang4_1 .weather_info_top h3{font-size:1em; color:#666; height:20px; padding:3px 0 0 0; text-align:center; line-height:16px !important;}
+.wrap_weather_info_jibang4_1 .info{text-align:center;}
+.wrap_weather_info_jibang4_1 .info img{width:40px; vertical-align:top;}
+.wrap_weather_info_jibang4_1 .info span{display:block; margin-top:-5px;}
+
+.total_info_jibang{position:relative; margin-bottom:12px; overflow:hidden; }
+.total_info_jibang dl{width:61px; height:157px; border:1px solid #ccc; text-align:center; line-height:normal; color:#333; float:left; margin-right:2px;}
+.total_info_jibang dl img{vertical-align:top;}
+.total_info_jibang dl .icon img{width:55px;}
+.total_info_jibang dl.now{border:1px solid #ccc;}
+.total_info_jibang dl dt{height:18px; padding-top:5px; font-weight:bold; background:#d1d1d1; color:#666; font-size:0.95em;}
+.total_info_jibang dl.now dt{background:#e2e2e2 !important; color:#666 !important;}
+.total_info_jibang dl dd{height:134px;}
+.total_info_jibang dl dd.sunny{background:url(/images/weather/main/bg_total_info_sunny.jpg) no-repeat center top;}
+.total_info_jibang dl dd.cloud{background:url(/images/weather/main/bg_total_info_cloud.jpg) no-repeat center top;}
+.total_info_jibang dl dd.rain{background:url(/images/weather/main/bg_total_info_rain.jpg) no-repeat center top;}
+.total_info_jibang dl dd.sunny_night{background:url(/images/weather/main/bg_total_info_sunny_night.jpg) no-repeat center top;}
+.total_info_jibang dl dd.snow{background:url(/images/weather/main/bg_total_info_snow.jpg) no-repeat center top;}
+.total_info_jibang dl dd.dust{background:url(/images/weather/main/bg_total_info_dust.jpg) no-repeat center top;}
+.total_info_jibang dl dd.asiadust{background:url(/images/weather/main/bg_total_info_asiadust.jpg) no-repeat center top;}
+.total_info_jibang dl dd.fog{background:url(/images/weather/main/bg_total_info_fog.jpg) no-repeat center top;}
+.total_info_jibang dl dd ul li.icon{height:60px;}
+.total_info_jibang dl dd ul li.degree{font-size:18px; font-weight:bold; height:32px; font-family:Arial !important;}
+.total_info_jibang dl dd ul li.percent{height:17px;}
+.total_info_jibang dl dd ul li.raining{height:23px;}
+.total_info_jibang dl dd ul li.wind_image{height:23px;}
+.total_info_jibang dl dd ul li.wind_speed{height:20px;}
+.total_info_jibang .btn{position:absolute; right:0; top:100px;}
+.total_info_jibang .btn2{position:absolute; left:-4px; top:100px; z-index:1;}
+
+/* 20121228_지방청메인_동네예보페이지 */
+.forecast_jibang{width:100%; color:#666666; table-layout:fixed; clear:both; position:relative; background:#fff;}
+.forecast_jibang_Popwidth{width:685px}
+.forecast_jibang img{font-size:0;}
+.forecast_jibang .bgblue{background:#eff3f5; line-height:1.1em; font-weight:normal; color:#6e7071; width:86px !important; font-size:0.95em;}
+.forecast_jibang .bgblue_bottom{background:#eff3f5; color:#6e7071; border-top:none; font-weight:normal; color:#6e7071; font-size:0.95em;}
+.forecast_jibang th{color:#797676; text-align:center; border:1px solid #c7c7c7; border-right:none; height:19px;}
+.forecast_jibang th.date{background:#eff3f5; width:70px; color:#6e7071; font-size:0.95em; padding:7px 0 5px 0; height:17px;}
+.forecast_jibang th.tommorow{background:#f4f7ff; color:#797676;}
+.forecast_jibang .none{border-left:none; border-right:none; width:1px;}
+.forecast_jibang td{text-align:center; vertical-align:middle; border:1px solid #c7c7c7; font-size:0.95em; padding:5px 0; line-height:1.1em;}
+.forecast_jibang td strong{font-size:0.95em;}
+.forecast_jibang br{height:1px;}
+.forecast_jibang .time{padding:5px 0 1px 0;}
+.forecast_jibang .time img{position:relative; left:-16px; top:0px; width:18px; height:20px;}
+.forecast_jibang .last_time img{position:relative;  left:-10px; top:0px;}
+.forecast_jibang  tr.rainfall{height:30px;}
+.forecast_jibang  tr.rainfall td{ padding:3px 0 !important;}
+.forecast_jibang .degree p{width:26px; height:19px; background:url(/images/weather/main/bg_deg.gif) no-repeat left top; position:relative; right:14px; text-align:center; margin:2px 0; padding-top:2px;  font-size:0.95em; color:#fff; font-weight:bold;}
+.forecast_jibang .degree p.minus{width:26px; height:19px; background:url(/images/weather/main/bg_wind.gif) no-repeat left top; position:relative; right:14px; text-align:center; margin:2px 0; padding-top:2px; font-size:0.95em; color:#fff; font-weight:bold;}
+.forecast_jibang .degree p.hidden{visibility:hidden;} /* 20100528 추가 */
+.forecast_jibang .humidity p{width:26px; height:19px; background:url(/images/weather/main/bg_hum.gif) no-repeat left top; position:relative; right:14px; text-align:center; margin:2px 0; padding-top:2px;   font-size:0.95em; color:#fff; font-weight:bold;}
+.forecast_jibang .wind p{width:26px; height:40px; background:url(/images/weather/main/bg_wind2.gif) no-repeat left 20px; position:relative; right:14px; text-align:center; padding-top:3px; padding-bottom:2px;  color:#0a79cb; font-size:0.95em; font-weight:bold; line-height:normal;}
+.forecast_jibang .wind span{width:15px; height:15px; display:inline-block; padding-bottom:3px;}
+.forecast_jibang .wind img{line-height:1px; font-size:0.1em; padding-bottom:3px;}
+.forecast_jibang .last{border-right:none; border-top:none; border-bottom:none; width:1%;}
+.forecast_jibang th.bg_blue{background:#e8eef2;}
+.forecast_jibang td.bg_blue{background:#e8eef2;}
+.forecast_jibang td.PD_none{padding:0 !important;}
+.forecast_jibang td.bg_tomorrow{background:#f4f7ff;}
+.forecast_jibang td.bg_left_today{background:url(/images/weather/main/left_today.gif) no-repeat left top; border-right:none; border-left:none;}
+.forecast_jibang td.bg_center_today{background:url(/images/weather/main/center_today.gif) no-repeat left top; border-left:none; border-right:none;}
+.forecast_jibang td span.low_deg{color:#1b7cf2; font-weight:bold; font-size:0.95em;}
+.forecast_jibang td span.high_deg{color:#f1490e; font-weight:bold; font-size:0.95em;}

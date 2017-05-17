@@ -1,0 +1,31 @@
+@media print {
+	body{background:none;}
+
+	#header, #container .snb, #visual,  #quick, #footer{display:none;}
+	p {font-size:9pt; orphans: 3; color:#000 !important;}
+
+	#container, #content{
+	    width: auto;    
+	    float: none !important;
+	}
+	#container, #content{background:none !important;}
+	#title{  
+		width:auto;
+		padding:0 0 5px 0;
+	    	border-bottom: 2px solid #c8c8c8; 
+	}
+	#location, h4, h5, p{padding:0 0 5px 15px;}
+
+	h1 { font-size: 200%; }
+	h2 { font-size: 180%; }
+	h3 { font-size: 160%; }
+	h4 { font-size: 140%; }
+	h5 { font-size: 120%; }
+
+	a:link, a:visited {
+	   color: #520;
+	   background: transparent;
+	   font-weight: bold;
+	   text-decoration: underline; 
+	}
+}

@@ -1,0 +1,64 @@
+@charset "euc-kr";
+/* 2009/11/13 MCAT by eskang  */
+
+/*bx*//*bx_reservation_re*/
+.bx_main{width:725px;height:47px;background:url(../../images/mypage/bg_main.gif) no-repeat 0 0;padding:25px 0 0 95px;margin:0 0 27px 0;color:#383939; font-size:1em; clear:left;}
+.bx_main .textBlue{font-size:1.2em;}
+
+.mypageTable{ border:0; border-top:2px solid #143861;  width:820px; table-layout:fixed; line-height: 1.4;}
+.mypageTable caption{position:absolute; left:-9999px; top:-9999px; overflow:hidden;}
+.mypageTable th{border:0; width:102px; height:37px; padding:0 0 0 13px; border-bottom:1px solid #e5e5e5; text-align:left; vertical-align:middle; background:#f7f7f8;  }
+.mypageTable td{ border:0; border-bottom:1px solid #e5e5e5; padding:6px 15px; ;}
+.mypageTable td img{vertical-align:middle; margin-left:10px;  }
+.mypageTable .bx_myselect{width:673px; margin:10px 0 0 0; padding:0 0 8px 0; background:url(../../images/mypage/bg_bx_myselect.gif) no-repeat left top;}
+.mypageTable .bx_myselect h3{font-size:1em; line-height:15px; height:19px; padding-top:7px; color:#333; padding-left:20px;}
+.mypageTable .myselect{overflow:hidden; width:223px; float:left; padding-right:10px;  }
+.mypageTable .myselect ul{overflow-x:hidden; overflow-y:scroll; width:221px; height:116px; border:1px solid #d4d4d4; background:#FFF; line-height:normal; }
+.mypageTable .myselect ul li{color:#a3a5a8;  height:20px;  padding:5px 0 3px 5px; border-bottom:1px solid #ebebeb; vertical-align:middle; }
+.mypageTable .myselect ul li a{display:block; height:20px; }
+.mypageTable .myselect ul li a:hover{color:#7195c1; background:#f2f9fa; text-decoration:none; font-weight:normal; }
+.mypageTable .myselect ul li a:active{color:#7195c1; background:#f2f9fa; text-decoration:none; font-weight:normal; }
+
+.mypageTable .myselect2{overflow:hidden; width:210px; float:left; padding-right:10px;  }
+.mypageTable .myselect2 ul{overflow-x:hidden; overflow-y:scroll; width:208px; height:116px; border:1px solid #d4d4d4; background:#FFF; line-height:normal; }
+.mypageTable .myselect2 ul li{color:#a3a5a8;  height:20px;  padding:5px 0 3px 5px; border-bottom:1px solid #ebebeb; vertical-align:middle; }
+.mypageTable .myselect2 ul li a{display:block; height:20px; }
+.mypageTable .myselect2 ul li a:hover{color:#7195c1; background:#f2f9fa; text-decoration:none; font-weight:normal; }
+.mypageTable .myselect2 ul li a:active{color:#7195c1; background:#f2f9fa; text-decoration:none; font-weight:normal; }
+.mypageTable .textBlue{color:#333; font-size:1.2em; font-weight:bold;}
+.mypageTable .mylist{clear:both; }
+.mypageTable .mylist dt, .mylist dd{float:left; }
+.mypageTable .mylist dt{ width:125px; height:18px; vertical-align:text-bottom; padding:2px 0 0 15px; line-height:normal; background:url(../../images/mypage/bu_arrow.gif) no-repeat left 4px;}
+.mypageTable .mylist dd{ border:0px solid red; height:20px; white-space:nowrap; padding:0 10px 0 10px; line-height:normal; background:url(../../images/mypage/bar_v.gif) no-repeat right 2px;}
+
+.mypageTable .mypart{clear:both; }
+.mypageTable .mypart dt, .mypart dd{float:left; }
+.mypageTable .mypart dt{ width:95px; height:18px; vertical-align:text-bottom; padding:2px 0 1px 15px; line-height:normal; background:url(../../images/mypage/bu_arrow.gif) no-repeat left 4px;}
+.mypageTable .mypart dd{ border:0px solid red; height:20px; white-space:nowrap; padding:0 10px 1px 10px; line-height:normal; }
+.mypageTable .textcivil{font-size:0.95em; }
+.mypageTable .textBlue2{color:#0958a5;  }
+
+.wrap_mypage_location_top{height:51px; padding:20px 0 0 172px; background:url(../../images/mypage/bg_mypage_location.gif) no-repeat left top; color:#333; margin-bottom:35px;}
+.wrap_mypage_location_top strong{color:#2d82d5;}
+.wrap_mypage_location_top span{color:#898989;}
+.wrap_mypage_location{overflow:hidden; display:inline-block; width:100%;}
+.wrap_mypage_location img{vertical-align:top;}
+.wrap_mypage_location .mypage_location_left{float:left; width:396px;}
+.wrap_mypage_location .mypage_location_left h2{padding:7px 0 0 21px; height:19px; background:url(../../images/mypage/bg_mypage_location_title.gif) no-repeat left top; font-size:1em; line-height:normal;}
+.wrap_mypage_location .wrap_location_contents{border:1px solid #cdcdcd;}
+.wrap_mypage_location .wrap_location_contents p.save{text-align:center; padding-top:16px; padding-bottom:14px;}
+.wrap_mypage_location .mypage_location_left ul{padding:10px 20px 0 20px;}
+.wrap_mypage_location .mypage_location_left ul li{vertical-align:top; display:inline-block; width:337px; overflow:hidden; background:url(../../images/mypage/bl_mypage_location_1.gif) no-repeat 6px 13px; height:22px; padding-top:8px; padding-left:17px; line-height:15px; border-bottom:1px dotted #e6e6e6;}
+.wrap_mypage_location .mypage_location_left ul li p.text{float:left; width:280px;}
+.wrap_mypage_location .mypage_location_left ul li p.btn{float:right; width:54px;}
+.wrap_mypage_location .mypage_location_left ul li p.btn a{float:left; margin-right:5px;}
+
+.wrap_mypage_location img{vertical-align:top;}
+.wrap_mypage_location .mypage_location_right{float:right; width:396px;}
+.wrap_mypage_location .mypage_location_right h2{padding:7px 0 0 21px; height:19px; background:url(../../images/mypage/bg_mypage_location_title.gif) no-repeat left top; font-size:1em; line-height:normal;}
+.wrap_mypage_location .wrap_location_contents{border:1px solid #cdcdcd;}
+.wrap_mypage_location .mypage_location_right ul{padding:10px 20px 0 20px;}
+.wrap_mypage_location .mypage_location_right ul li{vertical-align:top; display:inline-block; width:337px; overflow:hidden; background:url(../../images/mypage/bl_mypage_location_1.gif) no-repeat 6px 13px; height:22px; padding-top:8px; padding-left:17px; line-height:15px; border-bottom:1px dotted #e6e6e6;}
+.wrap_mypage_location .mypage_location_right ul li p.text{float:left; width:280px;}
+.wrap_mypage_location .mypage_location_right ul li p.btn{float:right; width:54px;}
+.wrap_mypage_location .mypage_location_right ul li p.btn a{float:left; margin-right:5px;}

@@ -1,0 +1,452 @@
+@charset "euc-kr";
+
+/******************************************************************************************//* h태그 */
+.h5{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 2px;font-size:100%;padding-left:20px;line-height:1.4em;margin-bottom:7px;}
+.h5_T20{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 2px;font-size:100%;padding-left:20px;line-height:1.4em;margin:20px 0 7px 0;color:#444;}
+.h6{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 2px;font-size:100%;padding-left:20px;line-height:1.4em;margin-bottom:7px;color:#444;}
+.h6cb{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 2px;font-size:100%;padding-left:20px;line-height:1.4em;margin-bottom:7px;clear:both;}
+.h6NM{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 2px;font-size:100%;padding-left:20px;line-height:1.4em;}
+.h6_PT10{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 12px;font-size:100%;line-height:1.4em;padding:10px 0 7px 20px;}
+.h6_T20{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 2px;font-size:100%;padding-left:20px;line-height:1.4em;margin:20px 0 7px 0;color:#444;}
+
+.h6_small{background:url(../../images/common/bu_arrow_orangesmall.gif) no-repeat left 2px top 5px;font-size:100%;padding-left:10px;line-height:1.4em;margin-bottom:7px;color:#444;}
+/******************************************************************************************//* 탭네비게이션 */
+
+#tab_nav{overflow:hidden; clear:left; width:100%; margin-bottom:20px; background:url(../../images/common/bg_tab.gif) repeat-x left bottom;}
+#tab_nav li{float:left;}
+#tab_nav li img{vertical-align:top;}
+
+#tab_nav2{overflow:hidden; clear:left; width:675px; margin-bottom:20px; background:url(../../images/common/bg_tab_nav2.gif) repeat-x left bottom; padding:3px 5px 0 5px;}
+#tab_nav2 li{float:left;}
+#tab_nav2 li img{vertical-align:top;}
+#tab_nav2 li.pad{padding-top:1px;}
+
+#tab_nav2_web {overflow:hidden; clear:left; width:100%; margin-bottom:20px;}
+#tab_nav2_web li{float:left;}
+#tab_nav2_web li img{vertical-align:top;}
+#tab_nav2_web li.pad{padding-top:1px;}
+
+#tab_nav2_1 {overflow:hidden; clear:left; width:100%; margin-bottom:20px;}
+#tab_nav2_1 li{float:left; margin:0 4px 3px 0;}
+#tab_nav2_1 li.last{margin-right:0;}
+#tab_nav2_1 li img{vertical-align:top;}
+#tab_nav2_1 li.pad{padding-top:1px;}
+
+/* 특보예보 | 국민행동요령 */
+#tab_menu{overflow:hidden; clear:left; width:100%; margin-bottom:12px; background:url(../../images/common/bg_tab.gif) repeat-x left bottom;}
+#tab_menu li{float:left;}
+#tab_menu li img{vertical-align:top;}
+
+#tab_menu2{overflow:hidden; clear:left; width:100%; margin-bottom:30px; background:url(../../images/common/bg_tab.gif) repeat-x left bottom;}
+#tab_menu2 li{float:left;}
+#tab_menu2 li img{vertical-align:top;}
+
+/* 동네예보 | 그래픽 */
+.tab_menu_sub3{overflow:hidden; clear:left; margin-bottom:20px;width:685px;padding-left:230px;}
+.tab_menu_sub3 li{float:left;}
+
+.tab_menu_sub{overflow:hidden; clear:left; margin-bottom:20px;width:685px;}
+.tab_menu_sub li{float:left;padding-left:1px;}
+.tab_menu_sub li.pad{padding-left:115px;}
+.tab_menu_sub li.snow{padding-left:228px;}
+
+/* 국내기후자료 | 우리나라 기후l 지역별특성 */
+.tab_menu_sub2{overflow:hidden; clear:left; margin-bottom:16px;width:695px;}
+.tab_menu_sub2 li{float:left;padding-left:1px;}
+.tab_menu_sub2 li.pad{padding-left:10px;}
+.tab_menu_sub2 li.regional{padding-left:0;}
+
+.tab_menu_sub3{overflow:hidden; clear:left; margin-bottom:8px;width:685px; margin-top:-5px;}
+.tab_menu_sub3 li{float:left;padding-left:1px;}
+.tab_menu_sub3 li.forecast{padding-left:135px;}
+.tab_menu_sub3 li.pds{padding-left:270px;}
+.tab_menu_sub3 li.regional{padding-left:53px;}
+
+
+.tab_menu_sub4{overflow:hidden; clear:left; margin-bottom:8px;width:685px; margin-top:-5px;}
+.tab_menu_sub4 li{float:left;padding-left:1px;}
+.tab_menu_sub4 li.forecast{padding-left:135px;}
+.tab_menu_sub4 li.pds{padding-left:270px;}
+.tab_menu_sub4 li.regional{padding-left:53px;}
+
+
+/* 국내기후자료 | 우리나라 기후 */
+.maB20{margin-bottom:20px;}
+#tab_climate{overflow:hidden; clear:left; width:675px; background:url(../../images/common/bg_tab_nav2.gif) repeat-x left top; padding:3px 5px 0 5px; position:relative; height:43px;}
+#tab_climate li{float:left;}
+#tab_climate li img{vertical-align:top;}
+#tab_climate li ul{position:absolute; top:28px; left:0; width:685px;}
+#tab_climate li ul li{float:left; margin-right:1px;}
+
+#tab_climate li ul#posi_01{left:0px; width:685px;}
+#tab_climate li ul#posi_02{left:76px; width:609px;}
+#tab_climate li ul#posi_03{left:152px; width:533px;}
+#tab_climate li ul#posi_04{left:228px; width:457px;}
+#tab_climate li ul#posi_05{left:304px; width:381px;}
+#tab_climate li ul#posi_06{left:304px; width:381px;}
+#tab_climate li ul#posi_07{left:446px; width:317px;}
+#tab_climate li ul#posi_08{left:466px; width:229px;}
+#tab_climate li ul#posi_09{left:454px; width:231px;}
+
+/* 예보분포도 */
+.tab_nav1{overflow:hidden; clear:left;margin:0 0 0 0;padding:0;}
+.tab_nav1 li{float:left;height:25px;vertical-align:top;}
+.tab_nav1 li img{vertical-align:top;}
+.tab_nav1 li a{display:inline-block;vertical-align:top;}
+.tab_nav1 li a.on{padding:1px;background:url('../../images/weather/forecast/bg_tabline.gif') repeat-x 0 0;height:23px;margin:0;}
+.tab_nav1 li a.left{padding:1px 0 1px 1px;background:url('../../images/weather/forecast/tab_off_bg.gif') repeat-x left 0;height:23px;margin:0;}
+.tab_nav1 li a.left:hover{padding:1px 0 1px 1px;background:url('../../images/weather/forecast/bg_tabline.gif') repeat-x left 0;height:23px;margin:0;}
+.tab_nav1 li a.right{padding:1px 1px 1px 0;background:url('../../images/weather/forecast/tab_off_bg.gif') repeat-x right 0;height:23px;margin:0;}
+.tab_nav1 li a.right:hover{padding:1px 1px 1px 0;background:url('../../images/weather/forecast/bg_tabline.gif') repeat-x right 0;height:23px;margin:0;}
+
+#tab_nav1{overflow:hidden; clear:left;margin:0 0 0 0;padding:0;}
+#tab_nav1 li{float:left;height:25px;vertical-align:top;}
+#tab_nav1 li img{vertical-align:top;}
+#tab_nav1 li a{display:inline-block;vertical-align:top;}
+#tab_nav1 li a.on{padding:1px;background:url('../../images/weather/forecast/bg_tabline.gif') repeat-x 0 0;height:23px;margin:0;}
+#tab_nav1 li a.left{padding:1px 0 1px 1px;background:url('../../images/weather/forecast/tab_off_bg.gif') repeat-x left 0;height:23px;margin:0;}
+#tab_nav1 li a.left:hover{padding:1px 0 1px 1px;background:url('../../images/weather/forecast/bg_tabline.gif') repeat-x left 0;height:23px;margin:0;}
+#tab_nav1 li a.right{padding:1px 1px 1px 0;background:url('../../images/weather/forecast/tab_off_bg.gif') repeat-x right 0;height:23px;margin:0;}
+#tab_nav1 li a.right:hover{padding:1px 1px 1px 0;background:url('../../images/weather/forecast/bg_tabline.gif') repeat-x right 0;height:23px;margin:0;}
+
+.wrap_tab_nav5{clear:left;overflow:hidden;height:64px;position:relative;width:100%;}
+ul.over{overflow:hidden;}
+#tab_nav5{clear:left; width:100%; background:url(../../images/common/bg_tab.gif) repeat-x left bottom;margin:0;padding:0;overflow:hidden;}
+#tab_nav5 li{float:left;}
+#tab_nav5 li img{vertical-align:top;}
+#tab_nav5 li.pore{}
+#tab_nav5 li ul{position:absolute;left:245px;top:28px;width:300px;}
+#tab_nav5 li ul.second{position:absolute;left:0;top:28px;width:300px;}
+#tab_nav5 li ul li{display:inline;width:95px;padding:0;margin:0;}
+#tab_nav5 li ul.second{display:inline;width:300px;padding:0;margin:0;}
+#tab_nav5 li ul.third{position:absolute;left:0;top:35px;width:680px;}
+#tab_nav5 li ul li.type1 a{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/forecast/summary2_1.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type1 a.on{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/forecast/summary2_1on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type1 a:hover{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/forecast/summary2_1on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type2 a{margin:0 0 0 2px;display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/forecast/summary2_2.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type2 a.on{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/forecast/summary2_2on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type2 a:hover{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/forecast/summary2_2on.gif') no-repeat 0 0;}
+
+#tab_nav5 li ul li.type4 a{margin:0 0 0 2px;display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/wave_model_01.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type4 a.on{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/wave_model_01_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type4 a:hover{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/wave_model_01_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type5 a{margin:0 0 0 2px;display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/wave_model_02.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type5 a.on{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/wave_model_02_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type5 a:hover{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/wave_model_02_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type6 a{margin:0 0 0 2px;display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/wave_model_03.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type6 a.on{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/wave_model_03_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type6 a:hover{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/wave_model_03_on.gif') no-repeat 0 0;}
+
+#tab_nav5 li ul li.type7 a{margin:0 0 0 2px;display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_01.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type7 a.on{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_01_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type7 a:hover{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_01_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type8 a{margin:0 0 0 2px;display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_02.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type8 a.on{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_02_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type8 a:hover{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_02_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type9 a{margin:0 0 0 2px;display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_03.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type9 a.on{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_03_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type9 a:hover{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_03_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type10 a{margin:0 0 0 2px;display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_04.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type10 a.on{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_04_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type10 a:hover{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_04_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type11 a{margin:0 0 0 2px;display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_05.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type11 a.on{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_05_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type11 a:hover{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_05_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type12 a{margin:0 0 0 2px;display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_06.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type12 a.on{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_06_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type12 a:hover{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_06_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type13 a{margin:0 0 0 2px;display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_07.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type13 a.on{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_07_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type13 a:hover{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_07_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type14 a{margin:0 0 0 2px;display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_08.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type14 a.on{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_08_on.gif') no-repeat 0 0;}
+#tab_nav5 li ul li.type14 a:hover{display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('../../images/weather/images/series_model_08_on.gif') no-repeat 0 0;}
+
+
+.wrap_tab_nav6{clear:left;overflow:hidden;height:64px;position:relative;width:100%;}
+#tab_nav6{clear:left; width:100%; background:url(../../images/common/bg_tab.gif) repeat-x left bottom;margin:0;padding:0;overflow:hidden;}
+#tab_nav6 li{float:left;}
+#tab_nav6 li img{vertical-align:top;}
+#tab_nav6 li.pore{}
+#tab_nav6 li ul{position:absolute;left:220px;top:37px;width:300px;}
+#tab_nav6 li ul.second{position:absolute;left:0;top:28px;width:300px;}
+#tab_nav6 li ul li{display:inline;padding:0;margin:0;}
+#tab_nav6 li ul.second{display:inline;width:300px;padding:0;margin:0;}
+#tab_nav6 li ul.third{position:absolute;left:0;top:28px;width:680px;}
+#tab_nav6 li ul li.type21 a{display:block;width:56px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu1.gif') no-repeat 0 0;}
+#tab_nav6 li ul li.type21 a.on{display:block;width:56px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu1_on.gif') no-repeat 0 0;}
+#tab_nav6 li ul li.type21 a:hover{display:block;width:56px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu1_on.gif') no-repeat 0 0;}
+#tab_nav6 li ul li.type22 a{margin:0 0 0 2px;width:63px;display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu2.gif') no-repeat 0 0;}
+#tab_nav6 li ul li.type22 a.on{display:block;width:63px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu2_on.gif') no-repeat 0 0;}
+#tab_nav6 li ul li.type22 a:hover{display:block;width:63px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu2_on.gif') no-repeat 0 0;}
+/*#tab_nav6 li ul li.type23 a{margin:0 0 0 2px;display:block;width:56px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu3.gif') no-repeat 0 0;}
+#tab_nav6 li ul li.type23 a.on{display:block;width:56px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu3_on.gif') no-repeat 0 0;}
+#tab_nav6 li ul li.type23 a:hover{display:block;width:56px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu3_on.gif') no-repeat 0 0;}*/
+
+#tab_nav6 li ul li.type23 a{margin:0 0 0 2px;display:block;width:56px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu5.gif') no-repeat 0 0;}
+#tab_nav6 li ul li.type23 a.on{display:block;width:56px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu5_on.gif') no-repeat 0 0;}
+#tab_nav6 li ul li.type23 a:hover{display:block;width:56px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu5_on.gif') no-repeat 0 0;}
+#tab_nav6 li ul li.type24 a{margin:0 0 0 2px;display:block;width:90px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/summary2_2.gif') no-repeat 0 0;}
+#tab_nav6 li ul li.type24 a.on{display:block;width:90px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/summary2_2on.gif') no-repeat 0 0;}
+#tab_nav6 li ul li.type24 a:hover{display:block;width:90px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/summary2_2on.gif') no-repeat 0 0;}
+
+/* 동네예보 그래픽 메뉴 metsky용  */
+.wrap_tab_nav6_m{clear:left;overflow:hidden;height:64px;position:relative;width:100%;}
+#tab_nav6_m{clear:left; width:100%; background:url(../../images/common/bg_tab.gif) repeat-x left bottom;margin:0;padding:0;overflow:hidden;}
+#tab_nav6_m li{float:left;}
+#tab_nav6_m li img{vertical-align:top;}
+#tab_nav6_m li.pore{}
+#tab_nav6_m li ul{position:absolute;left:100px;top:28px;width:300px;}
+#tab_nav6_m li ul.second{position:absolute;left:0;top:28px;width:300px;}
+#tab_nav6_m li ul li{display:inline;padding:0;margin:0;}
+#tab_nav6_m li ul.second{display:inline;width:300px;padding:0;margin:0;}
+#tab_nav6_m li ul.third{position:absolute;left:0;top:28px;width:680px;}
+#tab_nav6_m li ul li.type22 a{margin:0 0 0 2px;width:63px;display:block;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu2.gif') no-repeat 0 0;}
+#tab_nav6_m li ul li.type22 a.on{display:block;width:63px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu2_on.gif') no-repeat 0 0;}
+#tab_nav6_m li ul li.type22 a:hover{display:block;width:63px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu2_on.gif') no-repeat 0 0;}
+#tab_nav6_m li ul li.type23 a{margin:0 0 0 2px;display:block;width:56px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu3.gif') no-repeat 0 0;}
+#tab_nav6_m li ul li.type23 a.on{display:block;width:56px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu3_on.gif') no-repeat 0 0;}
+#tab_nav6_m li ul li.type23 a:hover{display:block;width:56px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/dist_menu3_on.gif') no-repeat 0 0;}
+#tab_nav6_m li ul li.type24 a{margin:0 0 0 2px;display:block;width:90px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/summary2_2.gif') no-repeat 0 0;}
+#tab_nav6_m li ul li.type24 a.on{display:block;width:90px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/summary2_2on.gif') no-repeat 0 0;}
+#tab_nav6_m li ul li.type24 a:hover{display:block;width:90px;height:0;padding:18px 0 0 0;overflow:hidden;background:url('/images/weather/forecast/summary2_2on.gif') no-repeat 0 0;}
+
+
+/* 태풍황사 | 업무소개 */
+.tab_menu_sub{overflow:hidden; clear:left; margin-bottom:8px;width:685px;}
+.tab_menu_sub li{float:left;padding-left:1px;}
+.tab_menu_sub li.forecast{padding-left:135px;}
+.tab_menu_sub li.pds{padding-left:270px;}
+
+/* 4대강탭 */
+.tab_4river_sub{overflow:hidden; clear:left; margin-bottom:1px;width:1063px;margin-top:20px; }
+.tab_4river_sub li{float:left;}
+.tab_4river_sub li.regional{padding-left:1px;}
+.tab_4river_sub li.snow{padding-left:228px;}
+
+/* 지방청 사전정보공개 *//*20141212*/
+#tab_nav7 {overflow: hidden;clear: left;width: 100%;margin-bottom: 14px;background: url(../../images/common/bg_tab.gif) repeat-x left bottom;}
+#tab_nav7 li{float: left;background: #dedede;border-right: 2px solid #C0BEBE;border-top: 1px solid #C0BEBE;border-left: 0.5px solid #C0BEBE;border-top-left-radius: 3px;border-top-right-radius: 12px;text-decoration: none;cursor: pointer;margin-right:2px;}
+#tab_nav7 li.on {background: #EAE8FC;border-right: 2px solid #052B55;border-top: 1px solid #0A60BE;border-left: 1px solid #052B55;}
+#tab_nav7 li:hover {background: #EAE8FC;border-right: 2px solid #052B55;border-top: 1px solid #0A60BE;border-left: 1px solid #052B55;}
+
+#tab_nav7 li .tabname {padding : 2px 13px 0px 13px;}
+
+/******************************************************************************************//* h태그 */
+.h5{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 1px;font-size:100%;padding-left:19px;line-height:1.4em;margin-bottom:7px;clear:both;}
+.h6{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 1px;font-size:100%;padding-left:19px;line-height:1.4em;margin-bottom:7px;color:#444;}
+.h6cb{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 1px;font-size:100%;padding-left:19px;line-height:1.4em;margin-bottom:7px;clear:both;}
+.h6NM{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 1px;font-size:100%;padding-left:19px;line-height:1.4em;}
+.h6_PT10{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 11px;font-size:100%;line-height:1.4em;padding:10px 0 7px 19px;}
+.h6_T10{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 1px;font-size:100%;padding-left:19px;line-height:1.4em;margin:10px 0 7px 0;color:#444;}
+.h6_T20{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 1px;font-size:100%;padding-left:19px;line-height:1.4em;margin:20px 0 7px 0;color:#444;}
+.h6_northkorea{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 1px;font-size:100%;padding-left:19px;line-height:1.4em;color:#444; float:left; width:353px; margin-bottom:10px;}
+.h6_northkorea .northkorea_h6{float:left;}
+.h6_northkorea span{float:right;}
+
+.wrap_h6_T20{overflow:hidden;}
+.wrap_h6_T20 h6{margin-bottom:0; margin-top:1px;}
+
+/******************************************************************************************//* ul */
+.ul_square{padding-left:5px;}
+.ul_square li{background:url(../../images/common/bu_square_orange.gif) no-repeat left 4px;padding-left:15px;margin-bottom:20px;}
+.ul_square li ul{margin-top:3px;}
+.ul_square li ul li{background:url(../../images/common/bu_arrow_orangesmall.gif) no-repeat left 5px;padding-left:9px;margin-bottom:0;}
+.ul_square li ul li.bg_none{background:none;}
+.ul_square li ul li.bg_none img{vertical-align:top;}
+.ul_square li ul li ul li{background:url(../../images/common/bu_hyphen.gif) no-repeat left 6px;  padding-left:9px; margin-bottom:0; }
+.ul_square li ul li ul li.bg_none{background:none;}
+.ul_square li ul li ul li ul li{background:none;padding-left:0;}
+.ul_square li ol{margin-top:3px;}
+.ul_square li ol li{background:url(../../images/common/bu_arrow_orangesmall.gif) no-repeat left 6px;padding-left:9px;margin-bottom:0;}
+.ul_square li ol li.bg_none{background:none;}
+.ul_square li ol li ul li{background:url(../../images/common/bu_hyphen.gif) no-repeat left 7px;  padding-left:9px; margin-bottom:0; }
+.ul_square li ol li ul li.bg_none{background:none;}
+.ul_square li ol li ul li ol li{background:none;padding-left:0;}
+
+.ol_square{padding-left:5px;}
+.ol_square li{margin-bottom:3px;}
+.ol_square li ul{margin-top:3px; padding-left:15px;}
+.ol_square li ul li{background:url(../../images/common/bu_arrow_orangesmall.gif) no-repeat left 7px;padding-left:9px;margin-bottom:0;}
+.ol_square li ul li.bg_none{background:none;}
+.ol_square li ul li ul li{background:url(../../images/common/bu_hyphen.gif) no-repeat left 6px;  padding-left:9px; margin-bottom:0; }
+.ol_square li ul li ul li.bg_none{background:none;}
+.ol_square li ul li ul li ul li{background:none;padding-left:0;}
+
+.ul_square2{padding-left:5px;margin-top:5px;}
+.ul_square2 li{background:url(../../images/common/bu_square_orange.gif) no-repeat left 3px;padding-left:15px;margin-bottom:5px;}
+.ul_square2 li ul{margin-top:3px;}
+.ul_square2 li ul li{background:url(../../images/common/bu_arrow_orangesmall.gif) no-repeat left 5px;padding-left:9px;margin-bottom:0;}
+.ul_square2 li ul li.bg_none{background:none;}
+
+.ul_square_nopad{padding-left:5px;}
+.ul_square_nopad li{background:url(../../images/common/bu_square_orange.gif) no-repeat left 3px;padding-left:15px;margin-bottom:2px;}
+.ul_square_nopad li.bg_none{background:none;}
+
+.ul_square03{padding-left:5px;}
+.ul_square03 li{background:url(../../images/common/bu_arrow_orangesmall.gif) no-repeat left 4px;padding-left:15px;}
+
+.ul_arrow{}
+.ul_arrow li{background:url(../../images/common/bu_arrow_orangesmall.gif) no-repeat left 5px;padding-left:10px;}
+
+.ul_arrow_T10{margin-top:10px;}
+.ul_arrow_T10 li{background:url(../../images/common/bu_arrow_orangesmall.gif) no-repeat left 5px;padding-left:10px;}
+
+.ul_arrow_w{}
+.ul_arrow_w li{background:url(../../images/common/bu_arrow_orangesmall.gif) no-repeat left 6px;padding-left:10px;}
+
+.ul_arrow_T10_w{margin-top:10px;}
+.ul_arrow_T10_w li{background:url(../../images/common/bu_arrow_orangesmall.gif) no-repeat left 7px;padding-left:10px;}
+
+
+.ul_arrow_left{padding-left:9px;}
+.ul_arrow_left li{background:url(../../images/common/bu_arrow_orangesmall.gif) no-repeat left 5px;padding-left:11px;}
+.ul_arrow_left li ul li{background:url(../../images/common/bu_hyphen.gif) no-repeat 2px 6px;}
+.ul_arrow_left li.bgnone{background:none;}
+.ul_arrow_left li table{margin-top:3px;}
+
+/******************************************************************************************//* p */
+.p_square{background:url(../../images/common/bu_square_orange.gif) no-repeat left 4px;padding-left:15px; margin:0 0 8px 8px;}
+.p_square_T20{background:url(../../images/common/bu_square_orange.gif) no-repeat left 4px;padding-left:15px; margin:20px 0 8px 8px;}
+
+.p_square_list{background:url(../../images/common/bu_square_orange.gif) no-repeat left 4px;padding-left:15px; margin:0 0 8px 5px;}
+.p_square_listT20{background:url(../../images/common/bu_square_orange.gif) no-repeat left 4px;padding-left:15px; margin:20px 0 8px 5px;}
+
+
+
+
+/* 검색 */
+.Tsearch{background:url(../../images/search/bg_search_top.gif) no-repeat left top; height:64px; padding:9px 0 0 174px; margin-bottom:30px;  }
+.search_box2{display:inline-block; width:100%;overflow:hidden; margin-bottom:17px;}
+.search_box2 select{float:left; width:132px; height:21px; border:1px solid #d2d2d2; margin-right:10px;}
+.search_box2 #Tsearch_text{float:left; width:172px; height:19px; border:1px solid #d2d2d2; margin-right:3px;}
+.search_box2 .btn{float:left; margin-right:15px;}
+#Tsearch_check1{float:left; width:13px; height:13px; border:1px solid #8e8f8f; margin-right:7px; margin-top:8px;}
+.search_box2 label{float:left; line-height:normal; padding-top:6px;}
+
+.search_keyword_favorite{display:inline-block; width:100%;}
+.search_keyword_favorite dt{float:left; }
+.search_keyword_favorite dd{float:left;}
+.search_keyword_favorite dd ul li{float:left; line-height:normal; margin-left:14px; display:inline;}
+
+.search_result{color:#444; height:38px;}
+.red_b{color:#ff3c00; font-size:14px;}
+.black{color:#444;}
+.blue_b{color:#1f72c0; font-size:14px;}
+
+.h5_search{background:url(../../images/search/bu_search_top_1.gif) no-repeat left 4px; font-size:14px; height:20px; padding-left:18px; color:#333;}
+.h5_search span{font-size:12px; color:#959595;}
+
+.wrap_search_result_content{padding-bottom:40px;}
+.wrap_search_left{float:left; width:624px;}
+.wrap_search_result_1{padding-bottom:10px; padding-top:15px; border-bottom:1px solid #d8d8d8; overflow:hidden; width:100%; display:inline-block;}
+.wrap_search_result_1 dl{float:left; width:540px;}
+.wrap_search_result_1 dl dt{background:url(../../images/search/bu_search_top_2.gif) no-repeat 3px 4px; padding-left:17px; height:25px;}
+.wrap_search_result_1 dl dd{font-size:11px; padding-left:17px; line-height:normal;}
+.wrap_search_result_1 dl dd strong{color:#1f72c0;}
+.wrap_search_result_1 p.btn{float:right; padding-top:16px;}
+.more_btn{text-align:right; padding:10px 8px 0 0;}
+
+.wrap_search_result_2{padding-bottom:10px; padding-top:15px; border-bottom:1px solid #d8d8d8; overflow:hidden; width:100%; display:inline-block; position:relative;}
+.wrap_search_result_2 dl{padding-right:10px;}
+.wrap_search_result_2 dl dt{height:25px; font-weight:bold; color:#1f72c0; padding-left:17px;}
+.wrap_search_result_2 dl dt a{color:#1f72c0; text-decoration:underline; padding-right:8px;}
+.wrap_search_result_2 dl dt span{font-weight:normal; color:#959595;}
+.wrap_search_result_2 dl dd{font-size:11px; padding-left:17px; line-height:16px;}
+.wrap_search_result_2 dl dd strong{color:#1f72c0;}
+.wrap_search_result_2 p.btn{position:absolute; right:0; top:12px;}
+
+.wrap_search_result_3{padding-bottom:10px; padding-top:15px; border-bottom:1px solid #d8d8d8; overflow:hidden; width:100%; display:inline-block; position:relative;}
+.wrap_search_result_3 .thumnail{float:left; width:108px; padding-left:10px;}
+.wrap_search_result_3 .thumnail img{width:89px; height:117px;}
+.wrap_search_result_3 dl{float:right; width:506px; padding-top:22px;}
+.wrap_search_result_3 dl dt{color:#444; font-weight:bold; line-height:20px;}
+.wrap_search_result_3 dl dd{color:#666; font-size:0.95em; line-height:20px;}
+.wrap_search_result_3 dl dd.url a{color:#1f72c0; font-size:12px; font-weight:bold; text-decoration:underline;}
+.wrap_search_result_3 p.btn{position:absolute; right:0; top:39px;}
+
+.wrap_search_fail{height:113px; padding:23px 0 0 226px; background:url(../../images/search/bg_search_fail.gif) no-repeat left top;}
+.wrap_search_fail h5{margin-bottom:15px; font-size:0; line-height:0; text-align:center;}
+.wrap_search_fail p{text-align:center;}
+
+
+.wrap_search_right{float:right; width:170px;}
+.best_keyword ol{border:1px solid #d5d5d5; border-top:0; padding-left:14px; padding-top:11px; margin-bottom:10px;}
+.best_keyword ol li{line-height:normal; height:28px;}
+.best_keyword ol li span{float:left; margin-right:8px;}
+
+.search_keyword ul{border:1px solid #d5d5d5; border-top:0; padding-left:14px; padding-top:11px; margin-bottom:10px;}
+.search_keyword ul li{line-height:normal; height:28px; padding-left:12px; background:url(../../images/search/bu_search_keyword.gif) no-repeat 3px 5px; overflow:hidden;}
+.search_keyword ul li a{float:right; margin-right:8px;}
+.search_keyword ul li span{float:left;}
+
+/* 지방기상청 */
+.weather_weekforecast{width:518px; float:right; margin-bottom:12px;}
+.weather_weekforecast h1{float:left; padding-top:1px; font-size:0; margin-bottom:6px; display:inline;}
+.weather_weekforecast h1 img{vertical-align:top;}
+.weather_weekforecast p.town{float:left; font-size:0.95em; margin-left:10px; display:inline;}
+.weather_weekforecast p.town2{float:right; font-size:0.95em; margin-left:10px; display:inline; line-height:normal; color:#999;}
+.weather_weekforecast p.town2 a{padding-left:10px;}
+.weather_weekforecast p.town3{float:right; font-size:0.95em; margin-left:10px; display:inline; line-height:normal; color:#666; padding-left:16px; background:url('/images/weather/main/img_weather_weekforecast_bar_sample_1.gif') no-repeat left 4px;}
+.weather_weekforecast p.town3 span{padding-right:5px;}
+.weather_weekforecast p.month{float:left;}
+.weather_weekforecast .table_weekforecast{clear:both; width:100%; background:url('/images/weather/main/bg_weather_weekforecast3.gif') repeat-x left top; margin-bottom:4px;}
+.weather_weekforecast .table_weekforecast th{padding:1px 0; height:22px; line-height:15px;}
+.weather_weekforecast .table_weekforecast td{text-align:center; height:45px;}
+.weather_weekforecast .table_weekforecast td dl{margin:0 auto; position:relative;}
+.weather_weekforecast .table_weekforecast td dl dt{float:left; padding:1px 0; width:37px;}
+.weather_weekforecast .table_weekforecast td dl dd{float:left; width:30px; font-size:0.95em; line-height:13px;}
+.weather_weekforecast .table_weekforecast td dl dd .cold{color:#0aa3f2;}
+.weather_weekforecast .table_weekforecast td dl dd.graph{float:right; width:10px; position:absolute; right:4px; top:6px;}
+.weather_weekforecast .table_weekforecast td span.red{color:#ea650d !important;}
+.weather_weekforecast .table_weekforecast td span.blue{color:#0aa3f2 !important;}
+.weather_weekforecast .table_weekforecast td dl dd .hot{color:#ea650d;}
+
+
+/*날씨메인 수정 조향염*/
+.weather_weekforecast .table_weekforecast2{clear:both; width:100%; background:url('/images/weather/main/bg_weather_weekforecast3.gif') repeat-x left top; margin-bottom:5px;}
+.weather_weekforecast .table_weekforecast2 th{padding:1px 0; height:27px; line-height:15px;}
+.weather_weekforecast .table_weekforecast2 th.null{width:25px;}
+.weather_weekforecast .table_weekforecast2 td{text-align:center;height:113px;}
+.weather_weekforecast .table_weekforecast2 td.null{width:25px;}
+.weather_weekforecast .table_weekforecast2 td dl{margin:0 auto; width:70px;padding:0 0 0 3px; overflow:hidden; position:relative;}
+.weather_weekforecast .table_weekforecast2 td dl dt{float:left; padding:1px 0 1px 14px; width:30px;}
+.weather_weekforecast .table_weekforecast2 td dl dt li{float:left; padding:1px 0; height:20px;}
+.weather_weekforecast .table_weekforecast2 td dl dd{float:left; width:20px; font-size:0.95em; line-height:15px;}
+.weather_weekforecast .table_weekforecast2 td dl dd .cold{color:#0aa3f2;}
+.weather_weekforecast .table_weekforecast2 td dl dd.graph{float:right; width:13px; position:absolute; right:3px; top:5px;  padding-top:20px;}
+.weather_weekforecast .table_weekforecast2 td span.red{color:#ea650d !important;}
+.weather_weekforecast .table_weekforecast2 td span.blue{color:#0aa3f2 !important;}
+.weather_weekforecast .table_weekforecast2 td dl dd .hot{color:#ea650d;}
+.weather_weekforecast .table_weekforecast2 td ol{display:inline; overflow:hidden; width:106px;height:50px;}
+.weather_weekforecast .table_weekforecast2 td ul{width:53px; float:left;}
+
+
+.wrap_weather_intro_city{ width:520px; background:url('/images/weather/main/bg_weather_intro_city.gif') repeat-x left bottom; height:21px; padding:22px 0 0 17px; margin-bottom:11px;}
+.wrap_weather_intro_city h1{font-size:1px; line-height:1px; float:left; margin-right:20px;}
+.wrap_weather_intro_city p{line-height:normal;}
+.wrap_weather_intro_city p.city_location{float:left; line-height:normal; }
+.wrap_weather_intro_city p.city_btn{float:right; margin-top:-2px; padding-right:14px;}
+.wrap_weather_intro_city_middle{margin-bottom:10px; height:83px; position:relative;}
+.wrap_weather_intro_city_middle .date{position:absolute; left:243px; top:0; color:#fff; }
+.wrap_weather_intro_city_middle .first{float:left; width:353px; height:83px; background:url('/images/weather/main/bg_weather_intro_city_middle_1.gif') no-repeat left top; margin-right:5px;;}
+.wrap_weather_intro_city_middle .first dt{text-align:center; font-weight:bold; color:#333; padding-top:1px;}
+.wrap_weather_intro_city_middle .first dt strong{color:#fff; height:18px;}
+.wrap_weather_intro_city_middle .first dd p.info{float:left; width:55px;text-align:center;}
+.wrap_weather_intro_city_middle .first dd p.info span{margin-top:-3px; display:block; font-weight:bold; color:#333;}
+.wrap_weather_intro_city_middle .first dd img.png25{width:45px; height:45px;}
+.wrap_weather_intro_city_middle .first .city_degree{float:left; width:61px; height:46px; padding-top:15px; text-align:center; font-size:24px; font-family:Arial; color:#ff9600; letter-spacing:-2px;}
+.wrap_weather_intro_city_middle .first ul{padding-top:13px; float:left; width:222px;}
+.wrap_weather_intro_city_middle .first ul li{background: url("/images/weather/main/bu_weather_info.gif") no-repeat left 6px; float: left; margin-bottom:5px; padding-left: 8px; width:75px; display:inline-block; line-height:15px; vertical-align:top; font-weight:bold; font-size:0.95em;}
+.wrap_weather_intro_city_middle .first ul li.long{background: url("/images/weather/main/bu_weather_info.gif") no-repeat left 6px; float: left; margin-bottom:5px; padding-left: 8px; width:130px; display:inline-block; line-height:15px; vertical-align:top; font-weight:bold; font-size:0.95em;}
+.wrap_weather_intro_city_middle .first ul li strong{color:#999; font-weight:normal;}
+
+.wrap_weather_intro_city_middle .second{float:left; width:78px; height:83px; background:url('/images/weather/main/bg_weather_intro_city_middle_2.gif') no-repeat left top; margin-right:5px;;}
+.wrap_weather_intro_city_middle .second dt{text-align:center; font-weight:bold; color:#333; padding-top:1px;}
+.wrap_weather_intro_city_middle .second dt strong{color:#fff; height:19px;}
+.wrap_weather_intro_city_middle .second dd{padding-top:4px;}
+.wrap_weather_intro_city_middle .second dd p.info{float:left; width:78px;text-align:center;}
+.wrap_weather_intro_city_middle .second dd p.info span{margin-top:-3px; display:block; font-weight:bold; color:#333;}
+.wrap_weather_intro_city_middle .second dd img.png25{width:40px; height:40px;}
+
+.MR0{margin-right:0 !important;}

@@ -1,0 +1,191 @@
+@charset "euc-kr";
+
+.fl		{ float:left !important; }
+.fr		{ float:right !important; }
+.fr02	{float:right !important; width:287px;}
+.fr02_w	{float:right !important; width:283px;}
+.cb		{ clear:both !important; }
+.ac		{ text-align:center !important; }
+.al		{ text-align:left !important; }
+.ar		{ text-align:right !important; }
+.vt		{ vertical-align:top !important; }
+.vm		{ vertical-align:middle !important; }
+.vb		{ vertical-align:bottom !important; }
+.jf		{ text-align:justify !important; }
+.oh		{ overflow:hidden !important; }
+.cp		{ cursor:pointer !important; }
+.di		{ display:inline !important; }
+.dn		{ display:none !important; }
+.db		{ display:block !important; }
+.vv		{ visibility:visible !important; }
+.vh		{ visibility:hidden !important; }
+.bn		{ border:none !important; }
+.bbn	{ border-bottom:none !important; }
+.bTn	{ border-top:none !important; }
+.bln	{ border-left:none !important; }
+.brn	{ border-right:none !important; }
+.bgn	{ background:none !important; } 
+.bgn	li{ background:none !important; } 
+.fb		{ font-weight:bold !important; }
+.fnor	{ font-weight:normal !important; }
+.fs01{ font-size:1em !important; }
+.fs02{ font-size:0.95em !important; }
+.fs03{font-size:1.05em !important;}
+.fs04{font-size:1.2em !important;}
+.fs05{font-size:0;}
+.fs06{font-size:0.9em;}
+.lh{line-height:0;}
+.TU{text-decoration:underline !important;}
+
+/* Margin */
+.MN0 { margin:0 !important;}
+.ML1 { margin-left:1px ; }
+.ML2 { margin-left:2px ; }
+.ML-4{margin-left:-4px;}
+.ML-7{margin-left:-7px;}
+.ML-10{margin-left:-10px;}
+.ML-13{margin-left:-13px;}
+.ML3 { margin-left:3px; }
+.ML4 { margin-left:4px; }
+.ML5 { margin-left:5px; }
+.ML6{ margin-left:6px;}
+.ML7{ margin-left:7px !important; }
+.ML8 { margin-left:8px !important; }
+.ML9 { margin-left:9px !important; }
+.ML10 { margin-left:10px !important; }
+.ML14{margin-left:14px !important;}
+.ML15 { margin-left:15px  !important; }
+.ML20 { margin-left:20px; }
+.ML25{ margin-left:25px; }
+.ML27 { margin-left:25px; }
+.ML30 { margin-left:30px; }
+.ML33 { margin-left:33px; }
+.ML40 { margin-left:40px; }
+.ML80 { margin-left:80px; }
+.ML125 { margin-left:125px; }
+.ML240{ margin-left:240px; }
+.ML295 { margin-left:295px; }
+.MR3{ margin-right:3px;}
+.MR5{ margin-right:5px;}
+.MR6{ margin-right:6px;}
+.MR10 { margin-right:10px; }
+.MR15 { margin-right:15px; }
+.MR20 { margin-right:20px; }
+.MR25 { margin-right:25px; }
+.MR30 { margin-right:30px; }
+.MT0{margin-top:0 !important;}
+.MT5 { margin-top:5px !important; }
+.MT8{margin-top:8px;}
+.MT10 { margin-top:10px !important; }
+.MT15 { margin-top:15px !important; }
+.MT10B10 { margin-top:10px !important;  margin-bottom:10px !important;}
+.ML10B10 { margin-left:10px !important;  margin-bottom:10px !important;}
+.ML20T10 { margin-left:20px !important;  margin-top:10px !important;}
+.MT14{margin-top:14px;}
+.MT-10 { margin-top:-10px; }
+.MT-20 { margin-top:-20px; }
+.MT20 { margin-top:20px !important;}
+.MT22 { margin-top:22px; }
+.MT25 { margin-top:25px !important; }
+.MT28 { margin-top:28px; }
+.MT30 { margin-top:30px; }
+.MT35 { margin-top:35px; }
+.MT40 { margin-top:40px; }
+.MT50 { margin-top:50px; }
+.MT70 { margin-top:70px; }	 
+.MT5L8 { margin:5px 0 0 8px; }
+.MTL20 { margin:20px 0 0 20px; }
+.MTB5 { margin:5px 0 5px 0; }
+.MTB10 { margin:10px 0 10px 0; }
+.MB0 { margin:0 !important;}
+.MB5{ margin-bottom:5px;}
+.MB10 { margin-bottom:10px; }
+.MB15 { margin-bottom:15px !important; }
+.MB20 { margin-bottom:20px !important; }
+.MB30 { margin-bottom:30px; }
+.MB50 { margin-bottom:50px;}
+
+/* padding_top */
+.PD0 { padding:0px !important;}
+.PT5 { padding-top:5px !important;}
+.PT7 { padding-top:7px;}
+.PT10 { padding-top:10px;}
+.PT14{ padding-top:14px;}
+.PT20 { padding-top:20px;}
+.PT30 { padding-top:30px;}
+.PT50 { padding-top:50px;}
+	
+/* padding_left */	
+.PL3 { padding-left:3px;}
+.PL5 { padding-left:5px !important;}
+.PL8 { padding-left:8px;}
+.PL10 { padding-left:12px;}
+.PL15 { padding-left:15px;}
+.PL20 { padding-left:20px;}
+.PL30 { padding-left:30px;}
+.PL40{ padding-left:40px;}
+.PL45{ padding-left:45px;}
+.PL50{ padding-left:50px;}
+.PL55{ padding-left:55px;}
+.PL60 { padding-left:60px;}
+.PL65 { padding-left:6px;}
+.PL100 { padding-left:100px;}
+.PL230 { padding-left:230px !important;}
+.PL250 { padding-left:250px !important;}
+.PL260 { padding-left:260px;}
+.PL315 { padding-left:315px;}
+
+/* padding_right */
+.PR0 { padding-right:0 !important;}
+.PR5 { padding-right:5px;}
+.PR7 { padding-right:7px;}
+.PR10 { padding-right:10px;}
+.PR12 { padding-right:10px;}
+.PR20 { padding-right:20px;}
+.PR35 { padding-right:35px;}
+
+
+
+/* padding_bottom */
+.PB5{ padding-bottom:5px;}
+.PB10 { padding-bottom:10px;}
+.PB15 { padding-bottom:15px;}
+.PB20 { padding-bottom:20px;}
+.PB5 { padding-bottom:5px;}
+.PB30 { padding-bottom:30px;}
+.PB40 { padding-bottom:40px;}
+.PB45 { padding-bottom:45px;}
+
+
+/* padding_all */
+.PT10L5 { padding:10px 0 0 5px;}
+.PT6L15 { padding:6px 0 0 15px;}
+.PT5B8{ padding:5px 0 8px 0;}
+.PT15B25{ padding:15px 0 25px 0;}
+
+/* FONT COLOR */
+
+.pointBlue{color:#1967be;}
+
+
+/* float 해제 */
+.fixed:after{	content:"."; 	display:block; 	height:0; 	clear:both; 	visibility:hidden;	}
+.fixed{	display:block;	}
+/*  \*/
+.fixed{	min-height:1%;	}
+* html .fixed{	height:1%;	}
+
+/* 텍스트 숨기기 */
+/*20111128 크롬이나 사파리에선 colgroup이 적용이 안됨. 그래서 css수정함*/
+/*.blind { position:absolute; width:0; height:0; font-size:0; line-height:0; overflow:hidden; visibility:hidden; }*/
+/*.blind{width:0;height:0;font-size:0;line-height:0;overflow:hidden;padding:0px;margin: 0px;visibility:hidden; vertical-align:top;}*/
+.blind{position:absolute; left:-9999px; top:-9999px; width:1px; height:1px; overflow:hidden; }
+/*.label_blind {width:0;height:0;font-size:0;line-height:0;padding:0px;margin:0px;overflow:hidden;visibility: hidden;position:absolute;}*/
+.label_blind{ position:absolute; left:-9999px; top:-9999px; width:1px; height:1px;  overflow:hidden;}
+/* rss버튼*/
+.rss{margin-right:5px;}
+
+
+@media print {
+	a:after {display:none;}
+}

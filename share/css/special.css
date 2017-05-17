@@ -1,0 +1,343 @@
+@charset "euc-kr";
+
+html, body {width:100%; height: 100%; /* Required */ }
+body{ color:#666; font:12px/1.5 Dotum, "돋움", AppleGothic, sans-serif;}
+/* 속도때문에 별 margin:0 padding:0 은 사용하지 않았습니다. 앞으로도 그렇게 작업했으면 좋겠습니다. */
+a:link, a:visited {	color: #555; text-decoration: none;}
+a:active, a:hover {color:#0958a5; text-decoration: underline;}
+body,html,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0; padding:0;}
+fieldset, img, iframe {border:0 none; }
+em {font-style: normal; font-weight: bold;}
+address{font-style:normal;}
+table { border-collapse: collapse; border-spacing:0; }
+ul,ol  {margin:0; padding:0; list-style:none;}
+li, dl, dd, dt { margin:0; padding:0;}
+hr{display:none;}
+img{vertical-align:top;}
+input, select, textarea {font-family:inherit; font-size: 100%; color: #333; background-color: #FFF;}
+/*legend{position:absolute; left:-2000px; top:-2000px; width:1px; height:1px; font-size:1%; line-height:0; overflow:hidden; visibility:hidden;} */
+legend{position:absolute; left:-9999px; top:-9999px;  }
+
+/* wrap 단풍이미지
+#specialWrap{margin:0 auto;background:url(../../images/weather/special/bg_special_body.jpg) no-repeat left top;width:750px;text-align:left;padding:14px 25px 0 25px;} */
+
+/* wrap 종이비행기 이미지 */
+#specialWrap{margin:0 auto;background:url(../../images/weather/special/bg_special_body.gif) no-repeat left top;width:750px;text-align:left;padding:14px 25px 0 25px;}
+
+/* wrap 해돋이 이미지 */
+#specialWrap2{margin:0 auto;background:url(../../images/weather/special/bg_sunrise_body.jpg) no-repeat left top;width:750px;text-align:left;padding:14px 25px 0 25px;}
+
+
+/* 텍스트 숨기기 */
+/*.blind{width:0;height:0;font-size:0;line-height:0;overflow:hidden;padding:0px;margin: 0px;visibility:hidden; vertical-align:top;}*/
+.blind{position:absolute; left:-9999px; top:-9999px; }
+
+
+/* header_special*/
+.h1{width:109px;height:41px;padding:5px 45px 0 0;float:left;}
+.h1 img{vertical-align:top;}
+
+
+.h1_sejong{width:109px;height:41px;padding:5px 45px 45px 0;float:left;}
+.h1_sejong img{vertical-align:top;}
+
+/* header_special 추석갈색메뉴
+#special_menu{float:left;width:596px;height:45px;background:url(../../images/weather/special/bg_specialMenu5.jpg) no-repeat left top;padding:5px 0 0 0;} */
+
+/* header_special 종이비행기*/
+#special_menu{float:left;width:596px;height:42px;background:url(../../images/weather/special/bg_specialMenu.jpg) no-repeat left top;padding:5px 0 0 0;}
+#special_menu li{float:left;}
+#special_menu li.sty1{padding:0 0 0 9px;}
+#special_menu li.sty2{padding:0 0 0 5px;}
+#special_menu li.sty3{padding:0 0 0 14px;}
+#special_menu li.sty4{padding:0 0 0 20px;}
+#special_menu li.sty5{padding:0 0 0 27px;}
+#special_menu li img{vertical-align:top;}
+
+/* 2011 추석 시간 */
+/*.chuseok_time{margin-top:0px; z-index:2; position:absolute; margin:-10px 0px 0px 400px;width:351px; height:23px;}*/
+.chuseok_time{margin-top:-10px; z-index:2; width:351px; height:23px;float: right;} /*2016*/
+.chuseok_time th{width:283px; height:23px; text-align:right; background:url(../../images/weather/special/chuseok_time.gif);color:#a31723;font-weight:normal;padding-right:15px;padding-top:0px;}
+.chuseok_time td img{padding:0px 0px 0px 5px;vertical-align:top;}
+
+/* 2011 추석 이미지 */
+/* #chuseokWrap{margin:0 auto;background:url(../../images/weather/special/chuseok_bg_01.jpg) no-repeat left top;width:750px;text-align:left;padding:14px 25px 0 25px;} */
+/* 2014 추석 이미지 */
+#chuseokWrap{margin:0 auto;background:url(../../images/weather/special/chuseok_bg_04.jpg) no-repeat left top;width:750px;text-align:left;padding:14px 25px 0 25px;}
+
+/* 2013 추석 메뉴*/
+#chuseok_menu{float:left;width:596px;height:42px;background:url(../../images/weather/special/chuseok_menu_bg.gif) no-repeat left top;}
+#chuseok_menu li{float:left;}
+#chuseok_menu li.sty1{padding:0 0 0 14px;}
+#chuseok_menu li.sty2{padding:5px 0 0 14px;}
+#chuseok_menu li.sty3{padding:0 0 0 14px;}
+#chuseok_menu li.sty4{padding:0 0 0 14px;}
+#chuseok_menu li.sty5{padding:0 0 0 19px;}
+#chuseok_menu li.sty6{padding:0 0 0 10px;}
+#chuseok_menu li img{vertical-align:top;}
+
+/* 20120531 세종시 이미지 */
+#sejongcityWrap{margin:0 auto;background:url(../../images/weather/special/bg_sejongcity_body.jpg) no-repeat left top;width:772px;text-align:left;padding:14px 25px 0 25px;}
+
+.quick_menu_sejong{z-index:100; position:absolute; width:80px;height:169px;padding:0px 0px 0px 695px;float:left;margin-top:137px;}
+.quick_menu_sejong img{vertical-align:top;}
+
+/* 2012 설 이미지 */
+#newyearkWrap{margin:0 auto;background:url(../../images/weather/special/newyear_bg.jpg) no-repeat left top;width:750px;text-align:left;padding:14px 25px 0 25px;}
+
+/* 2012 설 메뉴*/
+#newyear_menu{float:left;width:596px;height:42px;background:url(../../images/weather/special/newyear_menu_bg.gif) no-repeat left top;}
+#newyear_menu li{float:left;}
+#newyear_menu li.sty1{padding:5px 0 0 19px;}
+#newyear_menu li.sty2{padding:5px 0 0 27px;}
+#newyear_menu li.sty3{padding:5px 0 0 22px;}
+#newyear_menu li.sty4{padding:5px 0 0 23px;}
+#newyear_menu li.sty5{padding:5px 0 0 22px;}
+#newyear_menu li.sty6{padding:5px 0 0 25px;}
+#newyear_menu li img{vertical-align:top;}
+
+#newyear_gcimage{float:left;width:750px;height:309px;background:url(../../images/weather/special/newyear_gcimage.gif) no-repeat left top;padding-bottom:20px;}
+#newyear_gcimage li{float:left;}
+#newyear_gcimage li.sty1{width:362px;padding:44px 0px 0px 29px;}
+#newyear_gcimage li.sty2{padding:44px 0 0 17px;}
+
+.quick_menu{z-index:100; position:absolute; width:80px;height:169px;padding:0px 0px 0px 755px;float:left;margin-top:-10px;}
+.quick_menu img{vertical-align:top;}
+
+/* 2011 추석 시간 */
+.newyear_time{margin-top:0px; z-index:2; position:absolute; margin:-10px 0px 0px 400px;width:351px; height:23px;}
+.newyear_time th{width:283px; height:23px; text-align:right; background:url(../../images/weather/special/newyear_time.gif);color:#a31723;font-weight:normal;padding-right:15px;padding-top:0px;}
+.newyear_time td img{padding:0px 0px 0px 5px;vertical-align:top;}
+
+/* 2012 수능 이미지 */
+#examWrap{margin:0 auto;background:url(../../images/weather/special/2012_bg_01.jpg) no-repeat left top;width:750px;padding:14px 25px 0 25px;}
+
+/* 2012 수능 메뉴*/
+#exam_menu{float:left;width:596px;height:45px;background:url(../../images/weather/special/2012_menu_bg.gif) no-repeat left top;padding-bottom:10px;}
+#exam_menu li{float:left;}
+#exam_menu li.sty1{padding:0 0 0 56px;}
+#exam_menu li.sty2{padding:0 0 0 66px;}
+#exam_menu li.sty3{padding:0 0 0 63px;}
+#exam_menu li.sty4{padding:0 0 0 56px;}
+#exam_menu li img{vertical-align:top;}
+
+/* 2012 수능 인쇄 */
+.exam_time{position:absolute; margin:-10px 0px 0px 680px;width:69px; height:23px;}
+.exam_time th{width:69px; height:23px; text-align:right; background:url(../../images/weather/special/chuseok_time.gif);color:#a31723;font-weight:normal;padding-right:15px;padding-top:0px;}
+.exam_time td img{padding:0px 0px 0px 5px;vertical-align:top;}
+.exam_print{position:absolute; margin:40px 0px 0px 683px;width:69px; height:23px;}
+
+/*추석연휴 특별기상지원_달맞이지점*/
+.table_special {text-align:center;width:750px;}
+
+.table_special thead th{font-size:1em; color:#333333;background:#aa8451;color:#fff;border:1px solid #fff;border-top:2px solid #774e18;padding:6px 5px 3px 5px;}
+.table_special thead th.border_left{border-left:1px solid #774e18;}
+.table_special thead th.border_right{border-right:1px solid #774e18;}
+.table_special tbody th{border-right:1px solid #c8c8c8;border-bottom:1px solid #c8c8c8;border-left:1px solid #c8c8c8;font-weight:normal;padding:6px 5px 3px 5px;text-align:center;}
+.table_special tbody tr.bgcolor{border-right:1px solid #c8c8c8;border-bottom:1px solid #c8c8c8;border-left:1px solid #c8c8c8;padding:5px 10px 5px 15px;vertical-align:middle; background-color:#f2f0e3;}
+.table_special tbody td{border-right:1px solid #c8c8c8;border-bottom:1px solid #c8c8c8;border-left:1px solid #c8c8c8;padding:5px 10px 5px 15px;vertical-align:middle;}
+
+.table_midterm .td_oc {padding:0;}
+
+/*설연휴 특별기상지원_달맞이지점*/
+.table_special2 {text-align:center;width:720px;}
+.table_special2 thead th{font-size:1em; color:#333333;background:#4293e2;color:#fff;border:1px solid #fff;border-top:2px solid #0c5aa6;padding:6px 5px 3px 5px;}
+.table_special2 thead th.border_left{border-left:1px solid #4293e2;}
+.table_special2 thead th.border_right{border-right:1px solid #4293e2;}
+.table_special2 tbody th{border-right:1px solid #c8c8c8;border-bottom:1px solid #c8c8c8;border-left:1px solid #c8c8c8;font-weight:normal;padding:6px 5px 3px 5px;text-align:center;}
+.table_special2 tbody tr.bgcolor{border-right:1px solid #c8c8c8;border-bottom:1px solid #c8c8c8;border-left:1px solid #c8c8c8;padding:5px 10px 5px 15px;vertical-align:middle; background-color:#ebf6fc;}
+.table_special2 tbody td{border-right:1px solid #c8c8c8;border-bottom:1px solid #c8c8c8;border-left:1px solid #c8c8c8;padding:5px 10px 5px 15px;vertical-align:middle;}
+
+/* wrap 해돋이 이미지 */
+#specialWrap4{margin:0 auto;background:url(../../images/weather/special/bg_sunrise_body_2013.jpg) no-repeat left top;width:750px;text-align:left;padding:14px 25px 10px 25px;}
+/* 2014년 해돋이해넘이 이미지 */
+#specialWrap5{margin:0 auto;background:url(../../images/weather/special/bg_sunrise_body_2014.jpg) no-repeat left top;width:750px;text-align:left;padding:14px 25px 10px 25px;}
+
+/*2012 해돋이 테이블*/
+.table_special3 {text-align:center;width:686px;}
+.table_special3 thead th{font-size:1em; color:#333333;background:#4293e2;color:#fff;border:1px solid #fff;border-top:2px solid #0c5aa6;padding:6px 5px 3px 5px;}
+.table_special3 thead th.border_left{border-left:1px solid #4293e2;}
+.table_special3 thead th.border_right{border-right:1px solid #4293e2;}
+.table_special3 tbody th{border-right:1px solid #c8c8c8;border-bottom:1px solid #c8c8c8;border-left:1px solid #c8c8c8;font-weight:normal;padding:6px 5px 3px 5px;text-align:center;}
+.table_special3 tbody tr.bgcolor{border-right:1px solid #c8c8c8;border-bottom:1px solid #c8c8c8;border-left:1px solid #c8c8c8;padding:5px 10px 5px 15px;vertical-align:middle; background-color:#ebf6fc;}
+.table_special3 tbody td{border-right:1px solid #c8c8c8;border-bottom:1px solid #c8c8c8;border-left:1px solid #c8c8c8;padding:5px 10px 5px 15px;vertical-align:middle;}
+
+/* contents */
+.h2{clear:both;padding:30px 0 0 0;width:350px;height:21px;overflow:hidden;}
+.h2 img{vertical-align:top;}
+.h4{clear:both;padding:45px 0 13px 0;width:350px;height:26px;overflow:hidden;}
+.h4 img{vertical-align:top;}
+.text_box{margin:13px 0 0 0; padding:9px 20px;border:1px solid #dedede;background:#f8f8f8;width:708px;}
+.special_announcement{color:#0958a5;line-height:1em;text-align:right;margin:18px 0;}
+.special_announcement .pdr{padding:0 10px 0 0;}
+.special_announcement span{padding:2px 0 0 0;display:inline-block;}
+
+.table_basic{width:100%;}
+.table_basic thead th{background:#4293e2;color:#fff;border:1px solid #fff;border-top:2px solid #0c5aa6; padding:6px 5px 3px 5px;text-align:center;font-size:1.2em;}
+.table_basic thead th.border_left{border-left:1px solid #4293e2;}
+.table_basic thead th.border_right{border-right:1px solid #4293e2;}
+.table_basic tbody td{border-right:1px solid #c8c8c8;border-bottom:1px solid #c8c8c8;border-left:1px solid #c8c8c8;padding:8px 5px 6px 5px;vertical-align:top;}
+.table_basic tbody td p.pt10{padding:10px 0 0 0;}
+
+.special_banner{width:750px;height:47px;margin:20px 0 0 0;}
+.special_banner li{float:left;}
+
+.h3{background:url(../../images/common/bu_arrow_orange.gif) no-repeat left 2px;font-size:100%;padding:0 0 8px 20px;line-height:1.4em;margin-bottom:7px;color:#444;}
+.h3 img{vertical-align:top;}
+
+/* footer_special */
+#specialFooter{margin:24px 0 0 0;border-top:2px solid #393939;width:750px;position:relative;display:inline-block;}
+#specialFooter address{font-size:0.95em;padding:12px 0 0 3px;line-height:1.3em;}
+#specialFooter .call131{position:absolute;right:4px;top:12px;}
+#specialFooter .copyright{margin:6px 0 0 0;padding:0 0 10px 129px;}
+
+/*해돋이_해넘이table*/
+.Table_txt {color:#383838;
+		font-weight:bold;
+		font-size:12px;		
+		text-align:center;
+}
+.textP {font-size:12px;margin:0;color:#504d92;padding:8px 5px 0 5px;}
+.textP2 {font-size:12px;margin:0;color:#504d92;padding:0 0 0 20px;}
+.style1 {color: #666666}
+.td_01 {	    text-align:center;	
+		padding:20px 0px 20px 0px;
+		background-color:#FFFFFF;	
+}
+.td_02 {        text-align:center;	
+        padding:0px 10px 20px 10px;
+		background-color:#FFFFFF;	
+}
+.td_03 {		text-align:center;
+		background-color:#ffffff;
+}
+.td_tltie {	    text-align:center;
+		background-color:#d7e0ed;	
+}
+.td_left {	    text-align:left;
+        padding:0px 10px 0px 10px;
+		background-color:#ffffff;	
+}
+.bodyWarp{
+		border-left:1px solid #e0e0e0;
+		border-right:1px solid #e0e0e0;
+		border-bottom:1px solid #e0e0e0;
+		background-color:#ffffff;
+		margin-left:7px;
+		margin-right:7px;
+		padding:10px 10px 20px 10px;
+	}
+	.textWarp{font-size:12px;text-align:right;color:#666666;margin:0;padding:2px 3px 2px 0;}
+	.contTable01{
+		width:97%;
+		border-collapse: collapse; 
+		padding:0; 
+		margin:0;
+	}
+	.contTable01 th{
+		background-color:#dce9f3;
+		border:1px solid #cfcfcf;
+		color:#725434;
+		font-size:12px;
+		padding:8px 0 6px 0;
+	}
+	.contTable01 td{
+		border:1px solid #cfcfcf;
+		color:#535353;
+		font-size:12px;
+		padding:7px 8px 5px 8px;
+	}
+	.contTable01 td.tdtitle{
+		background-color:#eef5fa;
+		text-align:center;
+	}
+	.Table_txt{		
+		color:#383838;
+		font-weight:bold;
+		font-size:12px;		
+		text-align:center;
+	}		
+	.textWarp{font-size:12px;text-align:right;color:#666666;margin:0;padding:2px 3px 2px 0;}
+	.contTable02{
+		width:97%;
+		border-collapse: collapse; 
+		padding:0; 
+		margin:0;
+	}
+	.contTable02 th{
+	    background-color:#dce9f3;
+		border:1px solid #cfcfcf;
+		color:#535353;
+		font-size:12px;
+		padding:8px 0 6px 0;
+	}
+	.contTable02 td{
+		border:1px solid #cfcfcf;
+		color:#535353;
+		font-size:12px;
+		padding:7px 3px 5px 3px;
+		text-align:center;
+	}
+	.contTable02 td.tdtitle{
+		background-color:#eef5fa;
+	}
+	.Table_txt{		
+		color:#383838;
+		font-weight:bold;
+		font-size:12px;		
+		text-align:center;
+	}
+	
+/* wrap 해돋이 팝업 이미지 */
+#specialWrap3{margin:0 auto;background:url(../../images/weather/special/bg_sunrise_body2.jpg) no-repeat left top;width:750px;text-align:left;padding:14px 25px 0 25px;}
+.distibution_sunrise{clear:both;width:659px;height:80px;padding:10px 9px 0 0;margin:14px 0 25px 0;}
+
+/* 2012세계기상의날 조향염 */
+#WMD_bg{background:url(/images/weather/special/2012_wmd_bg.gif) repeat-x center 0px;}
+#WMD_main1{background: url(/images/weather/special/2012_wmd_top_01.jpg) no-repeat top; width:831px; height:302px; background-position :center;margin: 0 auto; }
+#WMD_main2{background: url(/images/weather/special/2012_wmd_top_02.jpg) no-repeat top; width:831px; height:302px; background-position :center;margin: 0 auto; }
+
+#WMD_logo{position:relative;left:0px; top:0px; width:771px;text-align:center;margin: 0 auto;overflow:hidden;}
+#WMD_logo p{float:left;width:134px;height:34px;padding:10px 0 0 10px;}
+
+#WMD_tab2{float:left;z-index:200;width:790px; height:294px;text-align:right;margin: 0 auto;overflow:hidden;}
+#WMD_tab2 p{float:right;padding:0px 0px 0px 0px;width:44px; height:294px;}
+
+#WMD_text_body{float:left;margin-bottom:50px;}
+#WMD_text_body p{text-align:center;margin: 0 auto;}
+#WMD_text_body li{float:left;width:791px;margin: 0 auto;}
+#WMD_text_body li .tab img{vertical-align:top;}
+#WMD_text_body li img{float:left;border:0px !important;vertical-align:top;}
+
+.WMD_menu{margin: 0 auto; width:771px;height:61px;text-align:center;padding:195px 0 0 0px;}
+.WMD_menu li{float:left;}
+.WMD_menu li.sty1{padding:0 9px 0 14px;}
+.WMD_menu li.sty2{padding:61px 0 0 405px;}
+
+/* 퀵메뉴 */
+#relation{margin: 0 auto; width:878px;float:left;overflow:hidden;}
+#relation img{vertical-align:top;}
+#relation .list{clear:right;height:294px;}
+#relation .list li{float:right;width:44px;}
+#relation .list li.sty1{padding:0 0px 0 0px;}
+
+/* 2012 개편이벤트 조향염 */
+.OpenEvent_bg{background:url(/images/weather/special/2012_OpenEvent_bg.gif) repeat center 0px;}
+.OpenEvent_body{float:left;padding-bottom:20px;}
+.OpenEvent_body li{float:left;width:871px;margin: 0 auto;}
+.OpenEvent_body li img{line-height:0; font-size:0;vertical-align:top;}
+
+/* 20130321 논산시 */
+#nonsancityWrap{margin:0 auto;background:url(../../images/weather/special/bg_nonsancity_body.jpg) no-repeat left top;width:772px;text-align:left;padding:14px 25px 0 25px;}
+
+/* 20140418 문화체육관광부 지원 이미지 */
+#mcstWrap{margin:0 auto;background:url(../../images/weather/special/springflower_tour_bg.jpg) no-repeat left top;width:750px;text-align:left;padding:14px 25px 0 25px;}
+#mcst_menu{float:left;width:596px;height:42px;background:url(../../images/weather/special/flower_menu_bg.gif) no-repeat left top;}
+#mcst_menu li{float:left;}
+#mcst_menu li.sty1{padding:5px 0 0 19px;}
+#mcst_menu li.sty2{padding:5px 0 0 27px;}
+#mcst_menu li.sty3{padding:5px 0 0 22px;}
+#mcst_menu li.sty4{padding:5px 0 0 23px;}
+#mcst_menu li.sty5{padding:5px 0 0 22px;}
+#mcst_menu li.sty6{padding:5px 0 0 25px;}
+#mcst_menu li img{vertical-align:top;}

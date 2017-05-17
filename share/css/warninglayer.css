@@ -1,0 +1,35 @@
+@charset "euc-kr";
+
+/*지진 통보문 레이어 팝업*/
+.layer_popup{position: absolute;width: 400px;padding-bottom:6px;z-index: 100000;background-color: #F3F2F2;border:1px solid rgb(206, 211, 214);border-bottom: 3px solid #A39F9F;}
+.layer_popup dl{overflow: hidden;padding: 1% 0 0 1%;clear: left;width: 95.5%;text-align: left;margin:0 2% 0 2%;}
+.layer_popup dl.top{background-color: rgb(255, 255, 255);font-weight: bold;height: 25px;margin-bottom: 15px;}
+.layer_popup dl.top dt{padding-left:1%;clear:left;float: left;width: 80%;font-size: 1.1em;color: #619b1c;}
+.layer_popup dl.top dt span{padding-left:6%;font-size: 0.95em;color: #ffffff;border: aqua 1px solid;}
+.layer_popup dl.top dd{width: 52px;float:right}
+#layer_popup_move{border: 1px solid #A39F9F;margin-right: 6px;cursor: move;}
+.layer_popup dl.cont{background: url('/images/board/bg_board_list03.gif') repeat-x left bottom;background-size: contain;}
+.layer_popup dt{float: left;padding-left: 2%;width: 20%;color: rgb(4, 96, 155);margin-bottom: 2px;}
+.layer_popup dd{float: left;width: 70%;margin-bottom: 2px;}
+.layer_popup .line1 {height:20px;}
+.layer_popup .line2 {height:40px;}
+.layer_popup .line3 {height:60px;}
+.layer_popup .line4 {height:80px;}
+.layer_popup .line5 {height:120px;}
+#ann{left:50%;top:15%;margin-left:-10%;}
+#rpt{left:50%;top:15%;margin-left:-10%;z-index:100001;}
+#inf{left:50%;top:15%;margin-left:-10%;z-index:100002;}
+#tsn{left:50%;top:15%;margin-left:-10%;z-index:100003;}
+#eew{left:50%;top:20%;margin-left:0%;z-index:100004;}
+
+.wrap_weather_info_s .info img.blgt {width: 15px;margin-left: -5px;margin-right: -7px;}
+.now_weather1 dd.now_weather1_left.icon img.blgt{margin-left: -15px;vertical-align: top;}
+.wrap_weather_info_s.info3 .info img.blgt{margin-left:-5px;}
+.time_weather1 dd.time_weather1_left.icon .blgt{margin-left: -10px;margin-right: -7px;width: 15px;vertical-align: top;}
+
+.MR15{ margin-right:15px;}
+.MR3{margin-right: 3px;}
+.fl{ float:left !important;}
+.point_wrn{color:crimson;font-size:1em;}
+.s_addr span{padding-top: 3px;}
+a.warningreg2dong{color:crimson;font-size:1em;margin-left:10px; margin-top:3px; margin-bottom:-3px;}
